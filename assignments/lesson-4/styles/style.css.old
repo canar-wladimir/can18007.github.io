@@ -1,0 +1,50 @@
+body {
+    font-family: 'Kodchasan', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+}
+
+header {
+    background-color: rgba(0,87,25,.5);
+    text-align:center;
+    padding: .5rem;
+    color: white;
+}
+
+header > img {
+    width: 100px;
+    height: auto;
+    vertical-align: middle;
+}
+
+
+.hedertext {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.headertext h1 {
+    font-size: 3rem;
+}
+
+.subheading {
+    font-size: 1.1rem;
+    color: rgb(20, 49, 20);
+    font-style: italic;
+
+}
+
+.currentcondition img {
+    width: 10px;
+    height: auto;
+}
+.currentconditions {
+    display: inline-block;
+    margin: 1rem 0 1rem 5rem;
+    padding: 1.2rem;
+    vertical-align: middle;
+    color: #fff;
+    background-color: rgba(0,87,25, .75);
+    border: 1pt solid rgba(45, 151, 75, 0.75);
+    font-size: 1.1rem;
+}
