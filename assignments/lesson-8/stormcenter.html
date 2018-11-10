@@ -51,7 +51,7 @@
         <button onclick="toggleMenu()">&#9776;</button>
         <ul id = "pNav" class = "hide">
             <li><a href="../../index.html">Home</a></li>
-            <li><a href="stormcenter.html">Form Storm center</a></li>
+            <li><a href="preston.html">Perston City</a></li>
             <li><a href="#">xxxx</a></li>
             <li><a href="#">xxxx</a></li>
             <li><a href="#">xxxx</a></li>
@@ -62,55 +62,64 @@
     
     
 <!-- CONTENT HERE -->
-    <main class = "center">
-            <div>
-                    <h1>The Town of Perston</h1>
-                    
-                    
-                    <div class ="cc">
-                        <figure class = "myimage">
-                            <img src = "images/franklin-original.jpg" alt="franklin" sizes = "100vw"
-                                 srcset = "images/franklin-original-px50.jpg 500w,
-                                           images/franklin-original-px100.jpg 1100w" 
-                            >
-                            <figcaption>The franklin original</figcaption>
-                        </figure>
-                        <!--<img src = "images/preston.jpg" alt="Preston town">-->
-                        
-                        <div class = "ccc">
-                            <h2>Weather Summary</h2>
-                            <p>Currently:<strong>Sunny</strong></p>
-                            <p>Temperature:<strong>70F</strong></p>
-                            <p>Humidity:<strong>69%</strong></p>
-                            <p>Wind Speed:<strong>5 mph</strong></p>
-                        </div>
-                    </div>
-                    
-                    
-                    <div class = "center div-header">
-                        <h2>High Temperature Forecast</h2>
-                        <table id = "table" class = "table">
-                            <tr>
-                                <th>Day</th>
-                                <th>Wed</th>
-                                <th>Thu</th>
-                                <th>Fri</th>
-                                <th>Sat</th>
-                                <th>Sun</th>
-                            </tr>
-                            <tr>
-                                <td class="forcast">Forecast</td>
-                                <td>89F</td>
-                                <td>87F</td>
-                                <td>78F</td>
-                                <td>75F</td>
-                                <td>72F</td>
-                            </tr>
-                        </table>      
-                    </div>
-                </div>
+<main class = "center">       
+        <h2>From to fill</h2>      
+        <form method="GET" action="thanks.html">       
+            <fieldset>
+                <legend>Personal information</legend>
+                <label class="top">Full name*:<input type="text" name="fname" pattern="[A-Za-z]{5,}" title="Full name including lastname" required></label>
+                <label class="top">Phone number*:<input type="tel" name="phone" required></label>
+                <label class="top">Zip code*:<input type="number" name="zipcode" required></label>
+                <label class="top">Email:<input type="email" name="email" placeholder="someone@domain.com"></label>
+                
+            </fieldset>
+        
+            <fieldset>
+                <legend>Storm Inforamtion</legend>
+                <label class="top">storm date:<input type="date" name="sdate"></label>
+                <label class="top">storm type:
+                    <input list="stormtype">
+                    <datalist id="stormtype">
+                        <option value="Flash Flood">
+                        <option value="Hail">
+                        <option value="Hurricane">
+                        <option value="Thunderstorm">
+                        <option value="Tornado">
+                    </datalist>
+                
+                </label>
+                
+                <label class="top">storm severity:
+                    <input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                    <span id="ratingvalue">5</span>
+                </label>
+                
+                <label class="top">storm region
+                    <select name="select">
+                        <option value="">Select region&#9662;</option>
+                        <option value="region1">Region 1</option>
+                        <option value="region2">Region 2</option>
+                        <option value="region3">Region 3</option>
+                        <option value="region4">Region 4</option>
+                        <option value="region5">Region 5</option>
+                        <option value="region6">Region 6</option>
+                    </select>
+                </label>
 
-    </main>
+                <label class="sbs1">User in danger level</label>
+                <label class="sbs"><input  type="radio" name="dlevel" value = "yes"> Yes</label>
+                <label class="sbs"><input  type="radio" name="dlevel" value = "maybe"> Maybe</label>
+                <label class="sbs"><input  type="radio" name="dlevel" value = "no"> No</label>                
+            </fieldset>
+        
+            <fieldset>
+                <legend>Aditional Information</legend>
+                <label class="top">Please enter aditional information</label>
+                <label class="top"><textarea name="ainfo" rows="4" cols="25"></textarea></label>  
+            </fieldset>
+            <input type = "submit" value="Send information" class = "submitBtn"> 
+        </form>
+    </main>   
 
     <section class ="center">
             <div class = "box3">
@@ -156,5 +165,6 @@
     </footer>
     <script src = "js/hamburger.js"></script>
     <script src = "js/currentdate.js"></script>
+    <script src = "js/severity.js"></script>
 </body>
 </html>
