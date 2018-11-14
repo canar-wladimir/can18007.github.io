@@ -1,5 +1,5 @@
 var weatherObjet = new XMLHttpRequest();
-weatherObjet.open('GET', 'http://api.openweathermap.org/data/2.5/weather?zip=77500,mx&appid=9b187cb192bbfd069044eebd166f188e&units=imperial',true);
+weatherObjet.open('GET', '//api.openweathermap.org/data/2.5/weather?zip=77500,mx&appid=9b187cb192bbfd069044eebd166f188e&units=imperial',true);
 
 weatherObjet.send();
 weatherObjet.onload = function() {
@@ -11,7 +11,7 @@ weatherObjet.onload = function() {
     document.getElementById('currentWind').innerHTML = weatherInfo.wind.speed;
 
     var iconcode = weatherInfo.weather[0].icon;
-    var icon_path = "https://openweathermap.org/img/w/"+iconcode+".png ";
+    var icon_path = "//openweathermap.org/img/w/"+iconcode+".png ";
     document.getElementById('weather_icon').innerHTML = icon_path;
 
     console.log(icon_path);
