@@ -133,3 +133,14 @@ form label.top input:required {
 form label.top input:required:valid {
   border: solid 1px #0c831c;
 }
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  padding: 2% 0% 0% 0%; 
+  margin: 0%;
+  text-align: center;
+}
+.wrapper div{
+  border: solid gray;
+ }

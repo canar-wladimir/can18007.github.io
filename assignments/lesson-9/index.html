@@ -33,15 +33,15 @@
 	<header>
             <div class = "box1">
                     <img src = "images/header1.png" alt="The weather site logo">
-                </div>
-                <div  class = "box2">
-                    <h1>The Weather Site</h1>
-                    <p>The weather site most accurate</p>
-                </div>
-                <div  class = "box1" >
-                    <img src = "images/header2.jpg" alt="The weather current condition" id = "weather_icon">
-                    <p id="wMain2">Sunny</p>
-                </div>  
+            </div>
+            <div  class = "box2">
+                <h1>The Weather Site</h1>
+                <p>The weather site most accurate</p>
+            </div>
+            <div  class = "box1" >
+                <img src = "images/header2.jpg" alt="The weather current condition">
+                <p>Sunny</p>
+            </div>  
        
     </header>
     
@@ -63,52 +63,32 @@
     
 <!-- CONTENT HERE -->
     <main class = "center">
-            <div>
-                    <h1>The Town of Perston</h1>
-                    
-                    
-                    <div class ="cc">
-                        <figure class = "myimage">
-                            <img src = "images/franklin-original.jpg" alt="franklin" sizes = "100vw"
-                                 srcset = "images/franklin-original-px50.jpg 500w,
-                                           images/franklin-original-px100.jpg 1100w" 
-                            >
-                            <figcaption>The franklin original</figcaption>
-                        </figure>
-                        <!--<img src = "images/preston.jpg" alt="Preston town">-->
-                        
-                        <div class = "ccc">
-                            <h2>Weather Summary</h2>
-                            <p>Currently:<strong id="wMain">Sunny</strong></p>
-                            <p>Temperature:<strong id="currentTemp">70F</strong></p>
-                            <p>Humidity:<strong id="currentHumidity">69%</strong></p>
-                            <p>Wind Speed:<strong id = "winSpeed">5 mph</strong></p>
-                        </div>
+            <div class = "wrapper">
+                    <div >                       
+                        <h1 id="name">name</h1>
+                        <p id="motto">motto</p>
+                        <p id="yearFounded">yearFounded</p>
+                        <p id="currentPopulation">currentPopulation</p>
+                        <p id="averageRainfall">averageRainFall</p>
+                        <img src = "images/town1.JPG" alt="town1">                                      
                     </div>
-                    
-                    
-                    <div class = "center div-header">
-                        <h2>High Temperature Forecast</h2>
-                        <table id = "table" class = "table">
-                            <tr>
-                                <th>Day</th>
-                                <th id = "tomorrow1">Wed</th>
-                                <th id = "tomorrow2">Thu</th>
-                                <th id = "tomorrow3">Fri</th>
-                                <th id = "tomorrow4">Sat</th>
-                                <th id = "tomorrow5">Sun</th>
-                            </tr>
-                            <tr>
-                                <td class="forcast">Forecast</td>
-                                <td id = "temp1">89F</td>
-                                <td id = "temp2">87F</td>
-                                <td id = "temp3">78F</td>
-                                <td id = "temp4">75F</td>
-                                <td id = "temp5">72F</td>
-                            </tr>
-                        </table>      
+                    <div>
+                            <h1 id="name2">name</h1>
+                            <p id="motto2">motto</p>
+                            <p id="yearFounded2">yearFounded</p>
+                            <p id="currentPopulation2">currentPopulation</p>
+                            <p id="averageRainfall2">averageRainFall</p>
+                            <img src = "images/town2.JPG" alt="town2">
                     </div>
-                </div>
+                    <div> 
+                            <h1 id="name3">name</h1>
+                            <p id="motto3">motto</p>
+                            <p id="yearFounded3">yearFounded</p>
+                            <p id="currentPopulation3">currentPopulation</p>
+                            <p id="averageRainfall3">averageRainFall</p>
+                            <img src = "images/town3.JPG" alt="town3">       
+                    </div>
+            </div>
 
     </main>
 
@@ -156,7 +136,7 @@
     </footer>
     <script src = "js/hamburger.js"></script>
     <script src = "js/currentdate.js"></script>
-    <script src = "js/weather.js"></script>
+    <script src = "js/byui.js"></script>
     
 </body>
 </html>

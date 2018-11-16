@@ -16,6 +16,13 @@
         border-right: 1px solid rgba(0,0,0,0.3);
         padding: .8rem 1rem;
     }    
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 10px;
+        text-align: center;
+    }
+
 }
-    
     
