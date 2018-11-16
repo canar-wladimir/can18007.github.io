@@ -10,7 +10,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
     /*----HEADER----*/
     .container img {
-        max-width: 30vw;
+        max-width: 25vw;
         height: auto;
     }
 
@@ -18,12 +18,26 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
         
         margin-left: auto;
         margin-right: auto;
-        max-width: 20vw;
+        max-width: 10vw;
         height: auto;
     }
+
+    .headerh1 {
+        font-size: 6.8vw;
+    
+    }
+
     
 }
 
+@media screen and (min-width: 601px) {
+
+    .headerh1 {
+        font-size: 4vw;
+    
+    }
+    
+}
 
 
 
@@ -72,10 +86,8 @@ header div h1 {
     
 }
 
-.font_size_header_h1 {
-    font-size: 4vw;
 
-}
+
 header h2 {margin: 0; font-weight: normal;}
 
 
