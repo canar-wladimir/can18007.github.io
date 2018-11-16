@@ -5,6 +5,28 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (max-width: 601px) {
+
+    /*----HEADER----*/
+    .container img {
+        max-width: 30vw;
+        height: auto;
+    }
+
+    .temperatura img{
+        
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 20vw;
+        height: auto;
+    }
+    
+}
+
+
+
+
 /*----------- BODY --------------*/
 body {
     font-size: 16px;
@@ -17,22 +39,6 @@ body {
     display:flex;
     justify-content: space-between;
     align-items: flex-end;
-}
-/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
-@media screen and (max-width: 601px) {
-    .container img {
-        max-width: 10vw;
-        height: auto;
-    }
-
-    .temperatura img{
-        
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 20vw;
-        height: auto;
-    }
-    
 }
 
 .temperatura {
@@ -55,24 +61,25 @@ body {
     padding: 0; 
 }
 
-
-
-
 header {
     padding: .5rem 2%;
     background-color: #fff;
     font-family: 'Cuprum', sans-serif;
 }
+
 header div h1 {
     margin: 0;
     
 }
 
 .font_size_header_h1 {
-    font-size: 5vw;
+    font-size: 4vw;
 
 }
 header h2 {margin: 0; font-weight: normal;}
+
+
+
 
 /*----------- NAVIGATION --------------*/
 nav {
