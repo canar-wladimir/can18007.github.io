@@ -31,8 +31,12 @@ for (day; day <= j; day++) {
 
 
 
-weatherObjet.open('GET', 'http://api.openweathermap.org/data/2.5/weather?zip=77500,mx&appid=9b187cb192bbfd069044eebd166f188e&units=imperial',true);
-weatherObjet2.open('GET', 'http://api.openweathermap.org/data/2.5/forecast?zip=77500,mx&appid=9b187cb192bbfd069044eebd166f188e&units=imperial',true);
+/*weatherObjet.open('GET', 'http://api.openweathermap.org/data/2.5/weather?zip=77500,mx&appid=9b187cb192bbfd069044eebd166f188e&units=imperial',true);
+weatherObjet2.open('GET', 'http://api.openweathermap.org/data/2.5/forecast?zip=77500,mx&appid=9b187cb192bbfd069044eebd166f188e&units=imperial',true);*/
+weatherObjet.open('GET', '//api.openweathermap.org/data/2.5/weather?zip=77500,mx&appid=9b187cb192bbfd069044eebd166f188e&units=imperial',true);
+weatherObjet2.open('GET', '//api.openweathermap.org/data/2.5/forecast?zip=77500,mx&appid=9b187cb192bbfd069044eebd166f188e&units=imperial',true);
+
+
 weatherObjet.send();
 weatherObjet2.send();
 
@@ -47,7 +51,9 @@ weatherObjet.onload = function() {
     document.getElementById('currentHumidity').innerHTML = weatherInfo.main.humidity+"%";
     document.getElementById('winSpeed').innerHTML = weatherInfo.wind.speed+"mph";
     var iconcode = weatherInfo.weather[0].icon;
-    var icon_path = "http://openweathermap.org/img/w/"+iconcode+".png ";
+    /*var icon_path = "http://openweathermap.org/img/w/"+iconcode+".png ";*/
+    var icon_path = "//openweathermap.org/img/w/"+iconcode+".png ";
+    
     document.getElementById('weather_icon').src = icon_path;
 
     console.log(icon_path);
