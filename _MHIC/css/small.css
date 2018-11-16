@@ -1,0 +1,134 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/*----------- BODY --------------*/
+body {
+    font-size: 16px;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+
+/*----------- HEADER --------------*/
+.container {
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (max-width: 601px) {
+    .container img {
+        max-width: 10vw;
+        height: auto;
+    }
+
+    .temperatura img{
+        
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 20vw;
+        height: auto;
+    }
+    
+}
+
+.temperatura {
+    font-size: 1vw
+}
+.container div {
+    margin-right: 0%;
+    border: solid red;
+}
+.container1 {
+    display:flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container1 div{
+    margin: 0;
+    padding: 0; 
+}
+
+
+
+
+header {
+    padding: .5rem 2%;
+    background-color: #fff;
+    font-family: 'Cuprum', sans-serif;
+}
+header div h1 {
+    margin: 0;
+    
+}
+
+.font_size_header_h1 {
+    font-size: 5vw;
+
+}
+header h2 {margin: 0; font-weight: normal;}
+
+/*----------- NAVIGATION --------------*/
+nav {
+    background-color: #666;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    float: left;
+    width: 25%;
+}
+nav ul li a {
+    display: block;
+    background-color: #444;
+    color: #eee;
+    border-left: 1px solid #777;
+    padding: .5rem 0;
+    text-decoration: none;
+    font-size: .9rem;
+    text-align: center;
+}
+nav ul li:first-child a {border-left: none;}
+
+nav ul li a:hover {
+    background-color: #eee;
+    color: #333;
+}
+nav ul li.active a {
+    background-color: #000;
+    color: #fff;
+}
+/*----------- MAIN --------------*/
+main {
+    padding: 0 2%;
+    min-height: 20rem;
+}
+
+
+/* --------- FORM ---------------*/
+
+
+/*----------- FOOTER --------------*/
+footer {
+    background-color: #ddd;
+    padding: .5rem 2%;
+    text-align: center;
+}
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
