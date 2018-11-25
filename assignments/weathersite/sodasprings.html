@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Fill Me In">
+<meta name="author" content="John Doe">
+
+<!-- This start file was build by Paul Cheney  -->
+<title>The Weather Site</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+
+<!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/large.css" rel="stylesheet">
+<!-- My styles-->
+<link href="css/style.css" rel="stylesheet">
+
+
+     
+</head>
+<body>
+<!-- HEADER HERE -->
+	<header>
+            <div class = "box1">
+                    <img src = "images/header1.png" alt="The weather site logo">
+                </div>
+                <div  class = "box2">
+                    <h1>The Weather Site</h1>
+                    <p>The weather site most accurate</p>
+                </div>
+                <div  class = "box1" >
+                    <img src = "images/header2.jpg" alt="The weather current condition" id = "weather_icon">
+                    <p id="wMain2">Sunny</p>
+                </div>  
+       
+    </header>
+    
+    
+<!-- NAVIGATION HERE -->
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id = "pNav" class = "hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston City</a></li>
+            <li><a href="fishhaven.html">Fishhaven City</a></li>
+            <li><a href="sodasprings.html">Sodaspring City</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+        </ul>
+    </nav>
+    
+    
+<!-- CONTENT HERE -->
+    <main class = "center">
+            <div>
+                    <h1>The Town of Perston</h1>
+                    
+                    
+                    <div class ="cc">
+                        <figure class = "myimage">
+                            <img src = "images/sodas-original.jpg" alt="sodas" sizes = "100vw"
+                                 srcset = "images/sodas-original-px50.jpg 500w,
+                                           images/sodas-original-px100.jpg 1100w" 
+                            >
+                            <figcaption>The Sodas original</figcaption>
+                        </figure>
+                        <!--<img src = "images/preston.jpg" alt="Preston town">-->
+                        
+                        <div class = "ccc">
+                            <h2>Weather Summary</h2>
+                            <p>Currently:<strong id="wMain">Sunny</strong></p>
+                            <p>Temperature:<strong id="currentTemp">70F</strong></p>
+                            <p>Humidity:<strong id="currentHumidity">69%</strong></p>
+                            <p>Wind Speed:<strong id = "winSpeed">5 mph</strong></p>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class = "center div-header">
+                        <h2>High Temperature Forecast</h2>
+                        <table id = "table" class = "table">
+                            <tr>
+                                <th>Day</th>
+                                <th id = "tomorrow1">Wed</th>
+                                <th id = "tomorrow2">Thu</th>
+                                <th id = "tomorrow3">Fri</th>
+                                <th id = "tomorrow4">Sat</th>
+                                <th id = "tomorrow5">Sun</th>
+                            </tr>
+                            <tr>
+                                <td class="forcast">Forecast</td>
+                                <td id = "temp1">89F</td>
+                                <td id = "temp2">87F</td>
+                                <td id = "temp3">78F</td>
+                                <td id = "temp4">75F</td>
+                                <td id = "temp5">72F</td>
+                            </tr>
+                        </table>      
+                    </div>
+                </div>
+
+    </main>
+
+    <section class ="center">
+            <div class = "box3">
+                    <h3>Franklin Founders Day Fresco</h3>
+                    <p><small>by Janico Juarez</small></p>
+                    <p>This fall after reflecting upon last yers event held in the overflowing
+                    Foundation park, I realized that I have been taking the festival for granted
+                    all these years and have not been properly engaging in perhpas the most
+                    popular community event of the year. In rsponse, I contacted Ms. Sharon via email
+                    and expressed my desire to serve on the committee. Well, the phone rings inmediately
+                    and she promply asked me to be the chair if said event, quite the turnaround. My
+                    Aooreciation for the yeras of dedicated, generous service of volunteers and sponsors 
+                    has scalated beyond what I thought I could feel for such a thing and all</p>
+                </div>
+        
+                <div class="box4">
+                    <img src = "images/family.JPG" alt="Family Picture">
+                </div>
+        
+    </section>
+       
+    
+<!-- FOOTER HERE -->   
+    <footer class = "center1 footer">
+            <div class="box1">
+                    <img id="imgf" src = "images/people.JPG" alt="People Picture">
+                </div>
+                <div class="box2">
+                    <h1>The Weather Site</h1>
+                    <p id="date"></p>
+                    <p>30N 1st E</p>
+                    <p>Perston, ID 83263</p>
+                    <p>99999999999</p>
+                    <p>theweathesite@tws.com</p>
+                </div>
+                <div class = "box1">
+                    <img id="imgf1" src = "images/map.JPG" alt="Map">
+                </div>
+                <div class="footerdiv">
+                    <p>2020 The Wather Site | Attributions | Wladimir Canar | Wednesday, 20 May 2020</p>
+                </div>          
+                
+    </footer>
+    <script src = "js/hamburger.js"></script>
+    <script src = "js/currentdate.js"></script>
+    <script src = "js/weathers.js"></script>
+    
+</body>
+</html>
