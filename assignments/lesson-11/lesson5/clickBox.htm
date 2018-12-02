@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/clickbox.css">
+	<!--<link rel="stylesheet" href="css/animatedMenu.css">-->
+	<script src="//code.jquery.com/jquery-2.2.1.min.js"></script>
+
+	<script>
+	$(function(){
+		// Lesson 5 Step 2 - Mosue events
+			//$('.boxHolder').on('click', 'li', function(){
+			//	$(this).addClass('greenBox');
+
+			//})
+
+			//$('.boxHolder').on('dblclick', 'li', function(){
+			//	$(this).addClass('orangeBox');
+
+			//})
+			$('.boxHolder').on({
+				click: function(){
+					//The Click handler
+					$(this).addClass('greenBox').html($(this).index());
+
+				},
+				dblclick: function(){
+					//The Double Click handler
+					$(this).addClass('orangeBox');
+				},
+				mouseenter: function() {
+					//When the mouse pointer enter the region of the list item
+					$(this).css('opacity', 0.3);
+
+				},
+				mouseleave: function(){
+					//When the mouse pointer leaves the region of the list items
+					$(this).css('opacity', 1.0);
+
+				}
+
+			},"li")
+
+
+	})
+	</script>
+</head>
+<body>
+	<ul class="boxHolder">
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+</body>
+</html>

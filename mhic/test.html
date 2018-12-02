@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page Title</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+  </head>
+  <body>
+    <h1>My To-Do List</h1>
+    <input type="text" placeholder="New item" />
+    <button id="add">Add</button>
+    <ol id="mylist">ddd</ol>
+    
+    <h1>Some heading</h1>
+  
+    <ol>
+      <li>One</li>
+      <li>Two</li>
+    </ol>
+
+    <div>1</div>
+    <script>
+    $("div").click(function() {
+      $("div").text($("div").text()+1);
+    });
+    </script>
+
+<div>a</div>
+<script>
+$("div").click(function() {
+  $("div").append("a");
+  $("div").off("click");
+});
+</script>
+
+  <script>
+  $(function() {
+  $("#add").on("click", function() {
+    var val = $("input").val();
+    if(val !== '') {
+     var elem = $("<li></li>").text(val);
+     $(elem).append("<button class='rem'>X</button>");
+     $("#mylist").append(elem);
+     $("input").val("");
+     $(".rem").on("click", function() {
+      $(this).parent().remove();
+     });
+    }
+  });
+});
+  </script>
+  </body>
+</html>
