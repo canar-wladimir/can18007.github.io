@@ -116,7 +116,7 @@ form {
 .grid li {
 	width: 250px;
 	height: 48px;
-	float: center;
+	float: left;
 	text-align: center;
 	background:rgb(240, 240, 240);
 	font-family: sans-serif;
