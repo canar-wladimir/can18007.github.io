@@ -3,12 +3,16 @@ var weatherObjet2 = new XMLHttpRequest();
 var weatherObjet3 = new XMLHttpRequest();
 var weatherObjet4 = new XMLHttpRequest();
 
-weatherObjet1.open('GET', 'http://api.openweathermap.org/data/2.5/weather?zip=77500,mx&appid=9b187cb192bbfd069044eebd166f188e&units=imperial',true);
+/*weatherObjet1.open('GET', 'http://api.openweathermap.org/data/2.5/weather?zip=77500,mx&appid=9b187cb192bbfd069044eebd166f188e&units=imperial',true);
 weatherObjet2.open('GET', 'http://api.openweathermap.org/data/2.5/weather?zip=99720,us&appid=9b187cb192bbfd069044eebd166f188e&units=imperial',true);
 weatherObjet3.open('GET', 'http://api.openweathermap.org/data/2.5/weather?zip=99502,us&appid=9b187cb192bbfd069044eebd166f188e&units=imperial',true);
-weatherObjet4.open('GET', 'http://api.openweathermap.org/data/2.5/weather?zip=36551,us&appid=9b187cb192bbfd069044eebd166f188e&units=imperial',true);
+weatherObjet4.open('GET', 'http://api.openweathermap.org/data/2.5/weather?zip=36551,us&appid=9b187cb192bbfd069044eebd166f188e&units=imperial',true);*/
 
-/*weatherObjet.open('GET', '//api.openweathermap.org/data/2.5/weather?zip=77500,mx&appid=9b187cb192bbfd069044eebd166f188e&units=imperial',true);*/
+weatherObjet1.open('GET', '//api.openweathermap.org/data/2.5/weather?zip=77500,mx&appid=9b187cb192bbfd069044eebd166f188e&units=imperial',true);
+weatherObjet2.open('GET', '//api.openweathermap.org/data/2.5/weather?zip=99720,us&appid=9b187cb192bbfd069044eebd166f188e&units=imperial',true);
+weatherObjet3.open('GET', '//api.openweathermap.org/data/2.5/weather?zip=99502,us&appid=9b187cb192bbfd069044eebd166f188e&units=imperial',true);
+weatherObjet4.open('GET', '//api.openweathermap.org/data/2.5/weather?zip=36551,us&appid=9b187cb192bbfd069044eebd166f188e&units=imperial',true);
+
 
 weatherObjet1.send();
 weatherObjet2.send();

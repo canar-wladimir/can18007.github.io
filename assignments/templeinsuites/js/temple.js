@@ -1,12 +1,12 @@
 var templeObject = new XMLHttpRequest();
-/*byuObjet.open('GET', 'https://byui-cit230.github.io/weather/data/towndata.json',true);*/
-templeObject.open('GET','https://can18007.github.io/assignments/templeinsuites/js/temple.json',true);
-//templeObjet.open('GET', '//byui-cit230.github.io/weather/data/towndata.json',true);
+
+//templeObject.open('GET','https://can18007.github.io/assignments/templeinsuites/js/temple.json',true);
+templeObject.open('GET','//can18007.github.io/assignments/templeinsuites/js/temple.json',true);
 
 templeObject.send();
 templeObject.onload = function() {
     var templeInfo = JSON.parse(templeObject.responseText);
-    //console.log(templeInfo);
+
     for (var i=1; i < 5; i++) {
     document.getElementById('name'+ i).innerHTML = "<strong>Name:</strong><br>" + templeInfo.temples[i-1].name;
     document.getElementById('address'+ i).innerHTML = "<strong>Address & phone:</strong><br>" + templeInfo.temples[i-1].address + " <br>" + templeInfo.temples[i-1].telephone;
