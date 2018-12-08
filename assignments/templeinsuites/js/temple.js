@@ -6,31 +6,18 @@ templeObject.open('GET','https://can18007.github.io/assignments/templeinsuites/j
 templeObject.send();
 templeObject.onload = function() {
     var templeInfo = JSON.parse(templeObject.responseText);
-    console.log(templeInfo);
+    //console.log(templeInfo);
+    for (var i=1; i < 5; i++) {
+    document.getElementById('name'+ i).innerHTML = "<strong>Name:</strong><br>" + templeInfo.temples[i-1].name;
+    document.getElementById('address'+ i).innerHTML = "<strong>Address & phone:</strong><br>" + templeInfo.temples[i-1].address + " <br>" + templeInfo.temples[i-1].telephone;
+    document.getElementById('email'+ i).innerHTML = "<strong>e-mail:</strong><br>" + templeInfo.temples[i-1].email;
+    document.getElementById('services'+ i).innerHTML = "<strong>Services:</strong><br>" + templeInfo.temples[i-1].services;
+    document.getElementById('history'+ i).innerHTML = "<strong>History:</strong><br>" + templeInfo.temples[i-1].history;
+    document.getElementById('ordinaces'+ i).innerHTML = "<strong>Ordinaces Schedule:</strong><br>" + templeInfo.temples[i-1].ordinanceschedule;
+    document.getElementById('sessions'+ i).innerHTML = "<strong>Sessions Schedule:</strong><br>" + templeInfo.temples[i-1].sessionschedule;
+    document.getElementById('closure'+ i).innerHTML = "<strong>Temple closure:</strong><br>" + templeInfo.temples[i-1].closure;
+    }
 
-    document.getElementById('name').innerHTML = "<strong>Name:</strong>" + templeInfo.temples[0].name;
-    document.getElementById('address').innerHTML = templeInfo.temples[0].address + " Tel:" + templeInfo.temples[0].telephone;
-    document.getElementById('email').innerHTML = "<strong>e-mail:</strong>" + templeInfo.temples[0].email;
-    document.getElementById('email').innerHTML = "<strong>Services:</strong>" + templeInfo.temples[0].services;
-    document.getElementById('email').innerHTML = "<strong>History:</strong>" + templeInfo.temples[0].history;
-    document.getElementById('email').innerHTML = "<strong>services:</strong>" + templeInfo.temples[0].services;
-
-
-    /*
-    document.getElementById('yearFounded').innerHTML = "<strong>Year Founded:</strong>" + byuInfo.towns[0].yearFounded;
-    document.getElementById('currentPopulation').innerHTML = "<strong>Population:</strong>" + byuInfo.towns[0].currentPopulation;
-    document.getElementById('averageRainfall').innerHTML = "<strong>Annual Rain Fall:</strong>" + byuInfo.towns[0].averageRainfall;
-
-    document.getElementById('name2').innerHTML = byuInfo.towns[2].name;
-    document.getElementById('motto2').innerHTML = byuInfo.towns[2].motto;
-    document.getElementById('yearFounded2').innerHTML = "<strong>Year Founded:</strong>" + byuInfo.towns[2].yearFounded;
-    document.getElementById('currentPopulation2').innerHTML = "<strong>Population:</strong>" + byuInfo.towns[2].currentPopulation;
-    document.getElementById('averageRainfall2').innerHTML = "<strong>Annual Rain Fall:</strong>" + byuInfo.towns[2].averageRainfall;
-
-    document.getElementById('name3').innerHTML = byuInfo.towns[6].name;
-    document.getElementById('motto3').innerHTML = byuInfo.towns[6].motto;
-    document.getElementById('yearFounded3').innerHTML = "<strong>Year Founded:</strong>" + byuInfo.towns[6].yearFounded;
-    document.getElementById('currentPopulation3').innerHTML = "<strong>Population:</strong>" + byuInfo.towns[6].currentPopulation;
-    document.getElementById('averageRainfall3').innerHTML = "<strong>Annual Rain Fall:</strong>" + byuInfo.towns[6].averageRainfall;
-*/
+    
+    
 } // end of the funtion
