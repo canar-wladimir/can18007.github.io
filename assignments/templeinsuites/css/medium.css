@@ -33,20 +33,41 @@ nav li {float:left; width: 25%;}
 
 .box1 {
     grid-column-start: 1; 
-    grid-column-end: 5; 
+    grid-column-end: 3; 
 }
 
 .box2 {
     display: grid;
     grid-template-columns: 5fr 1fr;
     grid-column-start: 1; 
-    grid-column-end: 4; 
+    grid-column-end: 3; 
 }
 
 .box3 {
     display: grid;
     grid-template-columns: 1fr;
 }
+
+/*contact style*/
+.gridc {
+    
+    grid-template-columns: 1fr 1fr; 
+ 
+}
+
+.box1c {
+    grid-column-start: 1; 
+    grid-column-end: 3; 
+}
+
+.box2c {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    grid-column-start: 1; 
+    grid-column-end: 3; 
+}
+/*---*/
+
 
 .navigation {
     display: block;

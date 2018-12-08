@@ -47,12 +47,104 @@ header h2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 50%;
 }
 
 .grid div {
     border: solid blue;
 }
 
+.box1 h2 {
+    text-align: center;
+}
+
+/*contact style*/
+.gridc {
+    display: grid;
+    grid-template-columns: 1fr; 
+    border:solid red;
+}
+
+.gridc iframe {
+    max-width: 130%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gridc div {
+    border: solid blue;
+}
+
+.box1c h2 {
+    text-align: center;
+}
+
+.box3 a {
+    border: solid red;
+    margin:auto;
+    padding: 0;
+}
+
+/*---*/
+
+/* acordeon menu*/
+
+.grid ul {
+	position:relative;
+	top:0px;
+    bottom:0px;
+
+	
+	height:100px;
+	margin:auto;
+	list-style:none;
+    padding:0px;
+ 
+
+}
+
+.grid li {
+	width: 250px;
+	height: 48px;
+	float: center;
+	text-align: center;
+	background:rgb(240, 240, 240);
+	font-family: sans-serif;
+	line-height: 3.6;
+	text-shadow: 0px 1px 1px rgba(0,0,0,0.4);
+	font-size: 14px;
+	margin: 1px;
+}
+
+.grid li > ul {
+	position:relative;
+	width:190px;
+    clear:both;
+
+	/* Hide the Submenus */
+	display:none;
+}
+
+.grid li > ul > li{
+	width: 128%;
+	height: auto;
+	text-align: center;
+	background:#17a8e4;
+	font-family: sans-serif;
+	line-height: 1.8;
+	text-shadow: 0px 1px 1px rgba(0,0,0,0.4);
+	font-size: 14px;
+    margin: 1px;
+    text-anchor: unset;
+}
+
+/*----*/
+
+.center {
+    text-align: center;
+}
 .navigation {
     display: none;
 }

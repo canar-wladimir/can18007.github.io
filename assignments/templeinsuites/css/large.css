@@ -10,26 +10,28 @@
 
  .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
     border:solid red;
 }
 
 .box1 {
     grid-column-start: 1; 
-    grid-column-end: 5; 
+    grid-column-end: 6; 
 }
 
 .box2 {
     display: grid;
     grid-template-columns: 5fr 1fr;
     grid-column-start: 1; 
-    grid-column-end: 4; 
+    grid-column-end: 5; 
 }
 
 .box3 {
     display: grid;
     grid-template-columns: 1fr;
+    
 }
+
 
 
 }/* end of media query screen*/
