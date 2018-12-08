@@ -1,19 +1,28 @@
-var weatherObjet = new XMLHttpRequest();
-weatherObjet.open('GET', '//api.openweathermap.org/data/2.5/weather?zip=77500,mx&appid=9b187cb192bbfd069044eebd166f188e&units=imperial',true);
+var templeObjet = new XMLHttpRequest();
+/*byuObjet.open('GET', 'https://byui-cit230.github.io/weather/data/towndata.json',true);*/
+templeObjet.open('GET', '//byui-cit230.github.io/weather/data/towndata.json',true);
 
-weatherObjet.send();
-weatherObjet.onload = function() {
-    var weatherInfo = JSON.parse(weatherObjet.responseText);
-    /*console.log(weatherInfo);*/
+templeObjet.send();
+templeObjet.onload = function() {
+    var templeInfo = JSON.parse(byuObjet.responseText);
+    console.log(templeInfo);
 
-    document.getElementById('place').innerHTML = weatherInfo.name;
-    document.getElementById('currentTemp').innerHTML = weatherInfo.main.temp;
-    document.getElementById('currentWind').innerHTML = weatherInfo.wind.speed;
+    /*document.getElementById('name').innerHTML = byuInfo.towns[0].name;
+    document.getElementById('motto').innerHTML = byuInfo.towns[0].motto;
+    document.getElementById('yearFounded').innerHTML = "<strong>Year Founded:</strong>" + byuInfo.towns[0].yearFounded;
+    document.getElementById('currentPopulation').innerHTML = "<strong>Population:</strong>" + byuInfo.towns[0].currentPopulation;
+    document.getElementById('averageRainfall').innerHTML = "<strong>Annual Rain Fall:</strong>" + byuInfo.towns[0].averageRainfall;
 
-    var iconcode = weatherInfo.weather[0].icon;
-    var icon_path = "//openweathermap.org/img/w/"+iconcode+".png ";
-    document.getElementById('weather_icon').src = icon_path;
+    document.getElementById('name2').innerHTML = byuInfo.towns[2].name;
+    document.getElementById('motto2').innerHTML = byuInfo.towns[2].motto;
+    document.getElementById('yearFounded2').innerHTML = "<strong>Year Founded:</strong>" + byuInfo.towns[2].yearFounded;
+    document.getElementById('currentPopulation2').innerHTML = "<strong>Population:</strong>" + byuInfo.towns[2].currentPopulation;
+    document.getElementById('averageRainfall2').innerHTML = "<strong>Annual Rain Fall:</strong>" + byuInfo.towns[2].averageRainfall;
 
-    /*console.log(icon_path);*/
+    document.getElementById('name3').innerHTML = byuInfo.towns[6].name;
+    document.getElementById('motto3').innerHTML = byuInfo.towns[6].motto;
+    document.getElementById('yearFounded3').innerHTML = "<strong>Year Founded:</strong>" + byuInfo.towns[6].yearFounded;
+    document.getElementById('currentPopulation3').innerHTML = "<strong>Population:</strong>" + byuInfo.towns[6].currentPopulation;
+    document.getElementById('averageRainfall3').innerHTML = "<strong>Annual Rain Fall:</strong>" + byuInfo.towns[6].averageRainfall;
 
-} // end of the funtion
+} // end of the funtion*/
