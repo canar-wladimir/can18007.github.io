@@ -1,0 +1,37 @@
+{
+    "temples": [
+    {
+      "name": "Anchorage Alaska Temple",
+      "address": "Anchorage, Alaska, United States",
+      "telephone": "+1 552 525 5555",
+      "email": "email1@lds.org",
+      "services": "service1, service2",
+      "history": "asfdsadfsafasfasfd",
+      "ordinance schedule": "sdafasfasfasf-asfdds",
+      "session schedule": "sdafasfasfasf-asfdds",
+      "closure": "asf"
+    },
+    {
+      "name": "Atlanta Georgia Temple",
+      "address": "Sandy Springs, Georgia, United States",
+      "telephone": "+1 552 525 4444",
+      "email": "email2@lds.org",
+      "services": "service1, service2",
+      "history": "asfdsadfsafasfasfd",
+      "ordinance schedule": "sdafasfasfasf-asfdds",
+      "session schedule": "sdafasfasfasf-asfdds",
+      "closure": "asf"
+    },
+    {
+      "name": "Birmingham Alabama Temple",
+      "address": "Gardendale, Alabama, United States",
+      "telephone": "+1 552 525 3333",
+      "email": "email3@lds.org",
+      "services": "service1, service2",
+      "history": "asfdsadfsafasfasfd",
+      "ordinance schedule": "sdafasfasfasf-asfdds",
+      "session schedule": "sdafasfasfasf-asfdds",
+      "closure": "asf"
+    }   
+   ]
+}

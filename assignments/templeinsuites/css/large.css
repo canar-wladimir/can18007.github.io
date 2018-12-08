@@ -1,0 +1,35 @@
+@media only screen and (min-width: 1028px) {
+
+ header, footer, nav, main {max-width:75rem; margin: auto;}
+ 
+ nav ul {padding-left: 2%;}  
+ nav li {width: auto;}
+ nav a {padding: .5rem 1rem;}
+
+ 
+
+ .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    border:solid red;
+}
+
+.box1 {
+    grid-column-start: 1; 
+    grid-column-end: 5; 
+}
+
+.box2 {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    grid-column-start: 1; 
+    grid-column-end: 4; 
+}
+
+.box3 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+}/* end of media query screen*/
