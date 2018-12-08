@@ -16,33 +16,33 @@
       "address": "Sandy Springs, Georgia, United States",
       "telephone": "+1 552 525 4444",
       "email": "email2@lds.org",
-      "services": "service1, service2",
-      "history": "asfdsadfsafasfasfd",
-      "ordinanceschedule": "sdafasfasfasf-asfdds",
-      "sessionschedule": "sdafasfasfasf-asfdds",
-      "closure": "asf"
+      "services": "Clothing rental not available, cafeteria available, No patron housing available, no distribution center nearby",
+      "history": "October 4, 2010 Announced. May 15, 2012 Groundbreaking. October 28, 2018 Dedicated.",
+      "ordinanceschedule": "Ordinances sessions are available every hour",
+      "sessionschedule": "Sessions are available every two hours, starting at 5AM",
+      "closure": "Monday, November 5 - 2018, January 14 - 2019"
     },
     {
       "name": "Birmingham Alabama Temple",
       "address": "Gardendale, Alabama, United States",
       "telephone": "+1 552 525 3333",
       "email": "email3@lds.org",
-      "services": "service1, service2",
-      "history": "asfdsadfsafasfasfd",
-      "ordinanceschedule": "sdafasfasfasf-asfdds",
-      "sessionschedule": "sdafasfasfasf-asfdds",
-      "closure": "asf"
+      "services": "Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+      "history": "October 4, 2008 Announced. May 15, 2010 Groundbreaking. October 28, 2012 Dedicated.",
+      "ordinanceschedule": "Ordinances sessions are available every hour",
+      "sessionschedule": "Sessions are available every two hours, starting at 5AM",
+      "closure": "Monday, November 5 - 2018, January 14 - 2019"
     },
     {
       "name": "Birmingham  Temple",
       "address": "Gardendale, , United States",
       "telephone": "+1 552 525 4444",
       "email": "email4@lds.org",
-      "services": "service1, service2",
-      "history": "asfdsadfsafasfasfd",
-      "ordinanceschedule": "sdafasfasfasf-asfdds",
-      "sessionschedule": "sdafasfasfasf-asfdds",
-      "closure": "asf"
+      "services": "Clothing rental available, cafeteria available, patron housing available, Distribution center nearby",
+      "history": "October 4, 2008 Announced. May 15, 2010 Groundbreaking. October 28, 2012 Dedicated.",
+      "ordinanceschedule": "Ordinances sessions are available every hour",
+      "sessionschedule": "Sessions are available every two hours, starting at 5AM",
+      "closure": "Monday, November 5 - 2018, January 14 - 2019"
     }
 
    ]
