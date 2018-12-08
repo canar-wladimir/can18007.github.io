@@ -1,6 +1,6 @@
 @media only screen and (min-width: 560px) {
 
-nav li {float:left; width: 25%;}
+nav li {float:left; width: 20%;}
 
 .container {
     display: flex;
@@ -25,11 +25,15 @@ nav li {float:left; width: 25%;}
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr; 
-    border:solid red;
+
     
 }
 
 
+.grid img {
+
+    margin-top: 33%;
+}
 
 .box1 {
     grid-column-start: 1; 
@@ -94,7 +98,7 @@ nav li {float:left; width: 25%;}
 	padding: 20px;
 	margin-top: 2px;
 	left: 0px;
-	border-left: 20px solid red;
+
 }
 
 

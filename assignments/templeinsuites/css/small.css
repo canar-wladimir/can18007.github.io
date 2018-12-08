@@ -38,7 +38,7 @@ header h2 {
 .grid {
     display: grid;
     grid-template-columns: 1fr; 
-    border:solid red;
+  
 }
 
 .grid img {
@@ -47,44 +47,54 @@ header h2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50%;
+    margin-top: 33%;
 }
 
-.grid div {
-    border: solid blue;
+.margen > img {
+    margin-top: 0%;
 }
 
-.box1 h2 {
+
+
+.box1 {
+    margin: 3%;
     text-align: center;
+    font-family: 'Rokkitt';
+    font-size: 180%;
+    
 }
 
+form {
+    text-align: left;
+}
 /*contact style*/
 .gridc {
     display: grid;
     grid-template-columns: 1fr; 
-    border:solid red;
+
 }
 
 .gridc iframe {
-    max-width: 130%;
+    max-width: 100%;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.gridc div {
-    border: solid blue;
-}
 
 .box1c h2 {
     text-align: center;
 }
 
 .box3 a {
-    border: solid red;
+ 
     margin:auto;
     padding: 0;
+}
+
+.box3 img {
+    margin-top: 0%
 }
 
 /*---*/
@@ -93,10 +103,8 @@ header h2 {
 
 .grid ul {
 	position:relative;
-	top:0px;
+	top:30px;
     bottom:0px;
-
-	
 	height:100px;
 	margin:auto;
 	list-style:none;
@@ -128,7 +136,7 @@ header h2 {
 }
 
 .grid li > ul > li{
-	width: 128%;
+	width: 118%;
 	height: auto;
 	text-align: center;
 	background:#17a8e4;

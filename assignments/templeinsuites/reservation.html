@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Fill Me In">
+<meta name="author" content="John Doe">
+<title>Temple Inn & Suites</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<script src="js/jquery-2.2.1.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Rokkitt" rel="stylesheet">
+<!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<link href="css/small.css" rel="stylesheet">
+<link href="css/medium.css" rel="stylesheet">
+<link href="css/large.css" rel="stylesheet">
+<link href="css/reservation.css" rel="stylesheet">
+
+</head>
+
+
+<body>
+<header>
+  <div><h1><img src="images/logo.jpg" alt="logo" > Temple Inn & Suites</h1></div>
+  <h2>Welcome to Best Temple Inn & Suites!</h2>
+  <div class="container">
+      <div><img src="images/location.jpg" alt="location icon" ></div>
+      <div>9900 Stoneybrook Dr, Kensington, MD 20895, EE. UU</div>
+      <div><img src="images/telefono.jpg" alt="telephone icon"></div>
+      <div>+1 301-588-0650</div>
+  </div>
+</header>
+  
+<nav class="clearfix">
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="temple.html">Temples</a></li>
+  <li class="active"><a href="reservation.html">Reservations</a></li>
+  <li><a href="services.html">Services</a></li>
+  <li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+
+<main>
+    <div class="grid">
+      <div class="box1">
+          <h1>Reservations form</h1>
+          <form method="GET" action="thanks.html">       
+              <fieldset>
+                  <legend>Personal information</legend>
+                  <label class="top">Full name*:<input type="text" name="fname" pattern="[A-Za-z]{5,}" title="Full name including lastname" required></label>
+                  <label class="top">Phone number*:<input type="tel" name="phone" required></label>
+                  <label class="top">Email:<input type="email" name="email" placeholder="someone@domain.com"></label>  
+                  <label class="top">Country of residence:<input type="text" name="country" placeholder="country"></label>                 
+              </fieldset>
+          
+              <fieldset>
+                  <legend>Dates information</legend>
+                  <label class="top">Check in:<input type="date" name="sdate"></label>
+                  <label class="top">Check out:<input type="date" name="fdate"></label>
+                  <label class="top">Room type:
+                      <input list="roommtype">
+                      <datalist id="roommtype">
+                          <option value="Doble beed suite">
+                          <option value="Doble beed reguar">
+                          <option value="King size suite">
+                          <option value="Connecting room">
+                      </datalist>
+                  </label>
+              </fieldset>
+              
+              <fieldset>
+                  <legend>Aditional Information</legend>
+                  <label class="top">Please enter aditional information for your reservation</label>
+                  <label class="top"><textarea name="ainfo" rows="10" cols="25"></textarea></label>  
+              </fieldset>
+              <input type = "submit" value="Send information" class = "submitBtn"> 
+          </form>
+      </div>
+      
+      <div class="box2">
+        <div>
+          <h2>Reservation policies</h2>
+          <p>At Temple Inn Hotel, our guests' satisfaction is always a top priority. <a href="#">Read about the hotel reservation policies </a>from pets, check-ins to cancellations</p>
+        </div>
+        <div class="box3">        
+                <a href="#"><img src="images/facebook.jpg" alt="location icon"></a>
+                <a href="#"><img src="images/twitter.jpg" alt="location icon"></a>
+                <a href="#"><img src="images/instagram.jpg" alt="location icon"></a>
+        </div>
+      </div>
+      
+    </div>
+</main>
+
+<footer>
+&copy; Wladimir Canar 2018
+</footer>
+</body>
+</html>
