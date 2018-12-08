@@ -7,8 +7,8 @@
       "email": "email1@lds.org",
       "services": "service1, service2",
       "history": "asfdsadfsafasfasfd",
-      "ordinance schedule": "sdafasfasfasf-asfdds",
-      "session schedule": "sdafasfasfasf-asfdds",
+      "ordinanceschedule": "sdafasfasfasf-asfdds",
+      "sessionschedule": "sdafasfasfasf-asfdds",
       "closure": "asf"
     },
     {
@@ -18,8 +18,8 @@
       "email": "email2@lds.org",
       "services": "service1, service2",
       "history": "asfdsadfsafasfasfd",
-      "ordinance schedule": "sdafasfasfasf-asfdds",
-      "session schedule": "sdafasfasfasf-asfdds",
+      "ordinanceschedule": "sdafasfasfasf-asfdds",
+      "sessionschedule": "sdafasfasfasf-asfdds",
       "closure": "asf"
     },
     {
@@ -29,8 +29,8 @@
       "email": "email3@lds.org",
       "services": "service1, service2",
       "history": "asfdsadfsafasfasfd",
-      "ordinance schedule": "sdafasfasfasf-asfdds",
-      "session schedule": "sdafasfasfasf-asfdds",
+      "ordinanceschedule": "sdafasfasfasf-asfdds",
+      "sessionschedule": "sdafasfasfasf-asfdds",
       "closure": "asf"
     }   
    ]
