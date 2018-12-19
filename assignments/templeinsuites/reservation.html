@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="description" content="Fill Me In">
-<meta name="author" content="John Doe">
-<title>Temple Inn & Suites</title>
+<meta name="description" content="Reservations">
+<meta name="author" content="Wladimir Canar">
+<title>Temple Inn & Suites Reservation</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -37,13 +37,14 @@
 </header>
   
 <nav class="clearfix">
-<ul>
-  <li><a href="index.html">Home</a></li>
-  <li><a href="temple.html">Temples</a></li>
-  <li class="active"><a href="reservation.html">Reservations</a></li>
-  <li><a href="services.html">Services</a></li>
-  <li><a href="contact.html">Contact</a></li>
-</ul>
+    <button onclick="toggleMenu()">&#9776;</button>
+    <ul id = "pNav" class = "hide">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="temple.html">Temples</a></li>
+        <li class="active"><a href="reservation.html">Reservations</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
 </nav>
 
 <main>
@@ -101,5 +102,6 @@
 <footer>
 &copy; Wladimir Canar 2018
 </footer>
+<script src = "js/hamburger.js"></script>
 </body>
 </html>

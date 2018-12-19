@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="description" content="Fill Me In">
-  <meta name="author" content="John Doe">
-  <title>Temple Inn & Suites</title>
+  <meta name="temple" content="temple information">
+  <meta name="author" content="Wladimir Canar">
+  <title>Temple Inn & Suites temples</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -43,7 +43,8 @@
   </header>
     
   <nav class="clearfix">
-    <ul>
+    <button onclick="toggleMenu()">&#9776;</button>
+      <ul id = "pNav" class = "hide">
         <li><a href="index.html">Home</a></li>
         <li class="active"><a href="temple.html">Temples</a></li>
         <li><a href="reservation.html">Reservations</a></li>
@@ -199,5 +200,6 @@
   <script src="js/jquery.js"></script>
   <script src="js/temple.js"></script>
   <script src = "js/weather.js"></script>
+  <script src = "js/hamburger.js"></script>
 </body>
 </html>

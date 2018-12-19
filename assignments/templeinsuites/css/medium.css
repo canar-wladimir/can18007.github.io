@@ -2,6 +2,17 @@
 
 nav li {float:left; width: 20%;}
 
+/* nav humberger*/
+nav ul.hide {
+    display: block;
+}
+
+nav button {
+    display: none;
+}
+
+/*....*/
+
 .container {
     display: flex;
     flex-direction: row;
@@ -12,11 +23,12 @@ nav li {float:left; width: 20%;}
 .container div {
     justify-content: center;
     margin-bottom: 0%;
+    margin-left: 1%;
 
 }
 
 .container div img {
-    margin-left: 30%;
+    margin-left: 0%;
     height: 60%;
 }
 

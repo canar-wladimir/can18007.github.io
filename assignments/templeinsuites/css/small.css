@@ -17,6 +17,20 @@ header h1 {
 header h2 {
     margin: 0;
 }
+/* nav hamburger*/
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #17a8e4;
+}
+
+nav ul.hide {
+    display: none;
+}
+
 
 .container {
     display: flex;
@@ -58,10 +72,12 @@ header h2 {
 
 .box1 {
     margin: 3%;
-    text-align: center;
     font-family: 'Rokkitt';
     font-size: 180%;
-    
+}
+
+box1 h2 {
+    color: red;
 }
 
 form {
@@ -150,9 +166,7 @@ form {
 
 /*----*/
 
-.center {
-    text-align: center;
-}
+
 .navigation {
     display: none;
 }
@@ -184,6 +198,7 @@ footer {
     background-color: #19a8e4;
 }
 
+.center h1 {font-family: "Rokkitt"}
 
 
 .clearfix:after {

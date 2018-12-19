@@ -12,11 +12,13 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr; 
 
+
 }
 
 .box1 {
     grid-column-start: 1; 
-    grid-column-end: 5; 
+    grid-column-end: 5;
+    
 }
 
 .box2 {
@@ -24,6 +26,7 @@
     grid-template-columns: 5fr 1fr;
     grid-column-start: 1; 
     grid-column-end: 5; 
+
 }
 
 .box3 {
