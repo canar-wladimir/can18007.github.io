@@ -34,10 +34,7 @@ header h2 {
 
 
 .container_h_t {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
+    display: none;
 }
 
 .container_h_t img {
@@ -60,6 +57,7 @@ nav ul.hide {
 button {
     color:white;
     background-color: #111;
+    font-size: 180%;
 }
 nav {background-color: #111;}
 

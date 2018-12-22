@@ -1,9 +1,21 @@
 @media only screen and (min-width: 560px) {
 
+
+
+
 nav li {float:left; width: 20%;}
 nav ul.hide {
     display: block;
 }
+
+.container_h_t {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+
 button {
     display: none;
 }
