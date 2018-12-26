@@ -22,7 +22,7 @@ function showTours(jsonObj) {
         myaside.className = "aside";
         var mydiv = document.createElement('div')
         
-        myh2tour.textContent = "\u26FA" + tours[i].toursType;
+        myh2tour.textContent = tours[i].toursType;
         myptour.textContent =tours[i].description;
 
         var toursfotos = tours[i].fotos;
