@@ -8,6 +8,7 @@ request.send();
 
 request.onload = function() {
     var superHeroes = request.response;
+    console.log(superHeroes);
     populateHeader(superHeroes);
     showHeroes(superHeroes);	
 }
