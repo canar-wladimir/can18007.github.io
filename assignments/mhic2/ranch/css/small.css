@@ -43,6 +43,8 @@ header h2 {
     margin-right: auto;
 }
 
+
+
 .container_h_t2 {
     font-size: 1vw;
     text-align: center;
@@ -98,6 +100,8 @@ main {
     margin: 0%;
 }
 
+.margin img:hover {box-shadow: 0px 0px 0px 4px rgb(98,0,0,0.3);}
+
 .box2 div * {
     margin: 4px;
 }
@@ -111,9 +115,44 @@ main {
 
 .box2 div img{
     margin: 0;
-    border-radius: 15px;
+    border-radius: 0px 15px 0px 15px;
 }
 
+/*Main tours.html rules here*/
+
+.tours1 div {
+    border: solid red:    
+}
+
+.tours1 img {
+    max-width: 100%;
+    border-radius: 0px 15px 0px 15px;
+
+}
+
+.tours1 aside {
+    display: none;
+}
+
+.prices {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.prices div {
+    border: solid red;
+}
+
+.price_box1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    border: solid red;
+}
+.price_box3 {
+    border: solid blue;
+}
+
+
+/***/
 
 footer {
     text-align: center;

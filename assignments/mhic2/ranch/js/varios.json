@@ -1,0 +1,32 @@
+{
+  "tours": [
+    {
+      "toursType" : "Mayan ruins",
+      "description": "asfasfd asfasf safsafda safasfa asfafasdf asfsadf",
+      "fotos": ["ruin1.jpg","ruin2.jpg","ruin3.jpg","ruin4.jpg","ruin5.jpg","ruin6.jpg","ruin7.jpg"],
+      "tours": [
+        {  
+          "name":"Chichen-Itza Plus",
+          "adultp": 55,
+          "childrenp":50,
+          "mainpic": "chichen1.jpg",
+          "sugestion":"traer toalla",
+          "contains": ["trasportation, food, breakfast, othres"]
+        },
+        {  
+          "name":"Chichen-Itza Basic",
+          "adultp": 55,
+          "childrenp":50,
+          "mainpic": "chichen1.jpg",
+          "sugestion":"traer toalla",
+          "contains": ["trasportation, food, breakfast, othres"]
+        }
+      ]
+    }
+  ],
+  "services": [
+    {
+      "servieType" : "Transportation"
+     }
+  ]
+}

@@ -28,6 +28,7 @@ function showHeroes(jsonObj) {
     for (var i = 0; i < heroes.length; i++) {
         var myArticle = document.createElement('article');
         var myH2 = document.createElement('h2');
+        myH2.className = "red";
         var myPara1 = document.createElement('p');
         var myPara2 = document.createElement('p');
         var myPara3 = document.createElement('p');
