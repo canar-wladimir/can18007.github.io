@@ -16,14 +16,31 @@ function showTours(jsonObj) {
     var tours = jsonObj['tours'];
 
     for (var i = 0; i < tours.length; i++) {
-        var myh1tour = document.createElement('h1');
+        var myh2tour = document.createElement('h2');
         var myptour = document.createElement('p');
         var myaside = document.createElement('aside');
+        myaside.className = "aside";
         var mydiv = document.createElement('div')
         
-        myh1tour.textContent = tours[i].toursType;
+        myh2tour.textContent = tours[i].toursType;
+        myptour.textContent =tours[i].description;
 
-        section.appendChild(myh1tour);
+        var toursfotos = tours[i].fotos;
+        for (var j = 0; j < toursfotos.length; j++) {
+            var path = 'images/';
+            var images = document.createElement('img');
+            images.setAttribute("src",path+toursfotos[j]);
+            images.setAttribute("alt",toursfotos[j]);;
+            myaside.appendChild(images);
+            
+        }
+
+        section.appendChild(myh2tour);
+        section.appendChild(myptour);
+        section.appendChild(myaside);
+
+
+        
         
     }
 

@@ -120,14 +120,19 @@ main {
 
 /*Main tours.html rules here*/
 
-.tours1 div {
-    border: solid red:    
+
+.tours1 h1 > strong {
+    color: rgba(238, 170, 20);
 }
 
 .tours1 img {
     max-width: 100%;
     border-radius: 0px 15px 0px 15px;
 
+}
+
+.tours_main h2 {
+    background-color: rgba(238, 170, 20);
 }
 
 .tours1 aside {
@@ -150,6 +155,7 @@ main {
 .price_box3 {
     border: solid blue;
 }
+
 
 
 /***/
