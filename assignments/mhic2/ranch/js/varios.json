@@ -12,7 +12,7 @@
           "childrenp":50,
           "mainpic": "chichen1.jpg",
           "sugestion":"traer toalla",
-          "contains": ["trasportation, food, breakfast, othres"]
+          "contains": ["trasportation", "food", "breakfast", "othres"]
         },
         {  
           "name":"Chichen-Itza Basic",
@@ -20,7 +20,7 @@
           "childrenp":50,
           "mainpic": "chichen1.jpg",
           "sugestion":"traer toalla",
-          "contains": ["trasportation, food, breakfast, othres"]
+          "contains": ["trasportation", "food", "breakfast", "othres"]
         }
       ]
     },
