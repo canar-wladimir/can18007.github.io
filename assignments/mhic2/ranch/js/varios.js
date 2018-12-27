@@ -22,7 +22,7 @@ function showTours(jsonObj) {
         myaside.className = "aside";
         var mydiv = document.createElement('div')
         
-        myh2tour.textContent = tours[i].toursType;
+        myh2tour.textContent = tours[i].toursDiagram + tours[i].toursType;
         myptour.textContent =tours[i].description;
 
         var toursfotos = tours[i].fotos;
@@ -31,8 +31,7 @@ function showTours(jsonObj) {
             var images = document.createElement('img');
             images.setAttribute("src",path+toursfotos[j]);
             images.setAttribute("alt",toursfotos[j]);;
-            myaside.appendChild(images);
-            
+            myaside.appendChild(images);   
         }
 
         section.appendChild(myh2tour);
