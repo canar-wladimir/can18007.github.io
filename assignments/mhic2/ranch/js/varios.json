@@ -8,16 +8,20 @@
       "tours": [
         {  
           "name":"Chichen-Itza Plus",
-          "adultp": 55,
-          "childrenp":50,
+          "costa": 36,
+          "costc":34,
+          "pricea": 60,
+          "pricec":55,
           "mainpic": "chichen1.jpg",
           "sugestion":"traer toalla",
           "contains": ["trasportation", "food", "breakfast", "othres"]
         },
         {  
           "name":"Chichen-Itza Basic",
-          "adultp": 36,
-          "childrenp":34,
+          "costa": 36,
+          "costc":34,
+          "pricea": 36,
+          "pricec":34,
           "mainpic": "chichen1.jpg",
           "sugestion":"traer toalla",
           "contains": ["trasportation", "food", "breakfast", "othres"]
