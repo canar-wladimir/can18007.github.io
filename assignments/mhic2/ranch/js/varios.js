@@ -56,16 +56,38 @@ function showTours(jsonObj) {
             mydiv_photo.appendChild(images)
 
             //mydiv_contain
+            var myList = document.createElement('ul');
             var tourcontain = tourh3[j].contains;
             for (var k = 0; k < tourcontain.length; k++) {
-                mydiv_contain.textContent = tourcontain[k]
-
-                   
+                var listItem = document.createElement('li');
+                listItem.textContent = tourcontain[k];
+                myList.appendChild(listItem);
             }
+            mydiv_contain.appendChild(myList);
+            //mydiv_contain    
+
+            //mydiv_price
+            var divp1 = document.createElement('div');
+            var divp2 = document.createElement('div');
+            var divp3 = document.createElement('div');
+            var divp4 = document.createElement('div');
+            var divp5 = document.createElement('div');
+
+            var costoa = tourh3[j].adultp;
+            var coston = tourh3[j].childrenp;
+
+
+            //mydiv_price    
+
+
+
 
             mydiv.appendChild(mydiv_h3);
             mydiv.appendChild(mydiv_photo);
             mydiv.appendChild(mydiv_contain);
+            mydiv.appendChild(mydiv_price);
+            mydiv.appendChild(mydiv_form);
+            
             
         }
 

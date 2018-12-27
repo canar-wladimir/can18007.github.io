@@ -16,8 +16,8 @@
         },
         {  
           "name":"Chichen-Itza Basic",
-          "adultp": 55,
-          "childrenp":50,
+          "adultp": 36,
+          "childrenp":34,
           "mainpic": "chichen1.jpg",
           "sugestion":"traer toalla",
           "contains": ["trasportation", "food", "breakfast", "othres"]
