@@ -139,24 +139,16 @@ main {
     display: none;
 }
 
-.prices {
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-.prices div {
-    border: solid red;
+ul {
+    margin-left: -40px;
+    margin-top:0;
+
 }
 
-.price_box1 {
-    grid-column-start: 1;
-    grid-column-end: 4;
-    border: solid red;
-}
-.price_box3 {
-    border: solid blue;
-}
+ul > li {
+    margin-left: 20px;
 
-
+}
 
 /***/
 

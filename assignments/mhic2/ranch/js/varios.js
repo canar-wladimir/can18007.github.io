@@ -57,13 +57,18 @@ function showTours(jsonObj) {
 
             //mydiv_contain
             var myList = document.createElement('ul');
+            myList.textContent = "Your tour includes:";
             var tourcontain = tourh3[j].contains;
             for (var k = 0; k < tourcontain.length; k++) {
                 var listItem = document.createElement('li');
                 listItem.textContent = tourcontain[k];
                 myList.appendChild(listItem);
             }
+
+            var mynotes = document.createElement('p');
+
             mydiv_contain.appendChild(myList);
+            mydiv_contain.appendChild(mynotes);
             //mydiv_contain    
 
             //mydiv_price
@@ -72,12 +77,42 @@ function showTours(jsonObj) {
             var divp3 = document.createElement('div');
             var divp4 = document.createElement('div');
             var divp5 = document.createElement('div');
+            var padult = document.createElement('p');
+            var pchild = document.createElement('p');
+            var pradult = document.createElement('p');
+            var prchild = document.createElement('p');
+            var fpradult = document.createElement('p');
+            var fprchild = document.createElement('p');
+            
+            var pricea = tourh3[j].pricea;          
+            var pricec = tourh3[j].pricec;
+            var finalpa = tourh3[j].costa + 10;
+            var finalpc = tourh3[j].costc + 5;
+            var descuento = 100-((finalpa*100)/pricea);
+                       
+            padult.textContent = "Adult:";
+            pchild.textContent = "Child:";
+            pradult.textContent = "Usd:" + pricea + ".00";
+            prchild.textContent = "Usd:" + pricec + ".00";
+            fpradult.textContent = "Usd:" + finalpa + ".00";
+            fprchild.textContent = "Usd:" + finalpc + ".00";
+            divp4.textContent = descuento.toFixed(0) + "% Off to our special price"
+            divp5.textContent = "Note: 5% aditional charge if you paid with Credit Card"
 
-            var costoa = tourh3[j].adultp;
-            var coston = tourh3[j].childrenp;
+            divp1.appendChild(padult);
+            divp1.appendChild(pchild);
+            divp2.appendChild(pradult);
+            divp2.appendChild(prchild);
+            divp3.appendChild(fpradult);
+            divp3.appendChild(fprchild);
 
-
+            mydiv_price.appendChild(divp1);
+            mydiv_price.appendChild(divp2);
+            mydiv_price.appendChild(divp3);
+            mydiv_price.appendChild(divp4);
+            mydiv_price.appendChild(divp5);          
             //mydiv_price    
+
 
 
 
