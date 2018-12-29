@@ -48,6 +48,9 @@ function showTours(jsonObj) {
             var mydiv_price = document.createElement('div');
             mydiv_price.className = "price";
             
+            var mydiv_note = document.createElement('div');
+            mydiv_note.className = "note";
+
             var mydiv_form = document.createElement('div');
             var path = 'images/';
             var images = document.createElement('img');
@@ -68,11 +71,11 @@ function showTours(jsonObj) {
                 myList.appendChild(listItem);
             }
 
-            var mynotes = document.createElement('p');
-            mynotes.textContent = "Note:" + tourh3[j].notes;
+            
+            mydiv_note.textContent = "Note:" + tourh3[j].notes;
 
             mydiv_contain.appendChild(myList);
-            mydiv_contain.appendChild(mynotes);
+           
             //mydiv_contain    
 
             //mydiv_price
@@ -89,8 +92,7 @@ function showTours(jsonObj) {
             divp4.className = "price-note divp4";
             
             
-            var divp5 = document.createElement('div');
-            divp5.className = "price-note divp5";
+           
 
             
             var padult = document.createElement('p');
@@ -113,7 +115,7 @@ function showTours(jsonObj) {
             fpradult.textContent = "$" + finalpa + ".00";
             fprchild.textContent = "$" + finalpc + ".00";
             divp4.textContent = descuento.toFixed(0) + "% Off to our special price"
-            divp5.textContent = "Credit Card payment will be added 5% aditional charge"
+       
 
             divp1.appendChild(padult);
             divp1.appendChild(pchild);
@@ -126,7 +128,7 @@ function showTours(jsonObj) {
             mydiv_price.appendChild(divp2);
             mydiv_price.appendChild(divp3);
             mydiv_price.appendChild(divp4);
-            mydiv_price.appendChild(divp5);          
+                
             //mydiv_price    
 
 
@@ -137,7 +139,7 @@ function showTours(jsonObj) {
             mydiv.appendChild(mydiv_photo);
             mydiv.appendChild(mydiv_contain);
             mydiv.appendChild(mydiv_price);
-            mydiv.appendChild(mydiv_form);
+            mydiv.appendChild(mydiv_note);
             
             
         }

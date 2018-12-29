@@ -61,6 +61,10 @@ div.news{
     grid-column-end: 4;
 }
 
+.note {
+    grid-column-start: 1; 
+    grid-column-end: 4;
+}
 .divp1 {
     margin-top: 20px;
 }
