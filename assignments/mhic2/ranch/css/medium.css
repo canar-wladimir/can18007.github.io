@@ -43,13 +43,39 @@ main figure{
  
 }
 
-
-
-
 div.news{
     clear: both;
     column-count: 2;
     column-rule: 1px solid #ddd;
 }
+
+
+/*Main tours.html rules here*/
+.mydiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.mydiv > h3 {
+    grid-column-start: 1; 
+    grid-column-end: 4;
+}
+
+.divp1 {
+    margin-top: 20px;
+}
+
+.divp2 {
+    margin-top: 20px; 
+}
+
+.divp3 {
+    margin-top: 20px;
+}
+
+.divp4 {
+    font-size: 170%;
+}
+/*****/
 
 }/* end of media query screen*/

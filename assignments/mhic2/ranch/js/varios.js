@@ -21,6 +21,7 @@ function showTours(jsonObj) {
         var myaside = document.createElement('aside');
         myaside.className = "aside";
         var mydiv = document.createElement('div')
+        mydiv.className = "mydiv";
         
         myh2tour.textContent = tours[i].toursDigram + tours[i].toursType;
         myptour.textContent =tours[i].description;
@@ -45,6 +46,8 @@ function showTours(jsonObj) {
             var mydiv_photo = document.createElement('div');
             var mydiv_contain = document.createElement('div');
             var mydiv_price = document.createElement('div');
+            mydiv_price.className = "price";
+            
             var mydiv_form = document.createElement('div');
             var path = 'images/';
             var images = document.createElement('img');
@@ -66,6 +69,7 @@ function showTours(jsonObj) {
             }
 
             var mynotes = document.createElement('p');
+            mynotes.textContent = "Note:" + tourh3[j].notes;
 
             mydiv_contain.appendChild(myList);
             mydiv_contain.appendChild(mynotes);
@@ -73,10 +77,22 @@ function showTours(jsonObj) {
 
             //mydiv_price
             var divp1 = document.createElement('div');
+            divp1.className = "divp1";
+
             var divp2 = document.createElement('div');
+            divp2.className = "divp2";
+
             var divp3 = document.createElement('div');
+            divp3.className = "divp3";
+
             var divp4 = document.createElement('div');
+            divp4.className = "price-note divp4";
+            
+            
             var divp5 = document.createElement('div');
+            divp5.className = "price-note divp5";
+
+            
             var padult = document.createElement('p');
             var pchild = document.createElement('p');
             var pradult = document.createElement('p');
@@ -88,16 +104,16 @@ function showTours(jsonObj) {
             var pricec = tourh3[j].pricec;
             var finalpa = tourh3[j].costa + 10;
             var finalpc = tourh3[j].costc + 5;
-            var descuento = 100-((finalpa*100)/pricea);
+            var descuento = Math.abs(100-((finalpa*100)/pricea));
                        
-            padult.textContent = "Adult:";
-            pchild.textContent = "Child:";
-            pradult.textContent = "Usd:" + pricea + ".00";
-            prchild.textContent = "Usd:" + pricec + ".00";
-            fpradult.textContent = "Usd:" + finalpa + ".00";
-            fprchild.textContent = "Usd:" + finalpc + ".00";
+            padult.textContent = "Adult(usd):";
+            pchild.textContent = "Child(usd):";
+            pradult.textContent = "$" + pricea + ".00";
+            prchild.textContent = "$" + pricec + ".00";
+            fpradult.textContent = "$" + finalpa + ".00";
+            fprchild.textContent = "$" + finalpc + ".00";
             divp4.textContent = descuento.toFixed(0) + "% Off to our special price"
-            divp5.textContent = "Note: 5% aditional charge if you paid with Credit Card"
+            divp5.textContent = "Credit Card payment will be added 5% aditional charge"
 
             divp1.appendChild(padult);
             divp1.appendChild(pchild);

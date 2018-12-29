@@ -119,8 +119,6 @@ main {
 }
 
 /*Main tours.html rules here*/
-
-
 .tours1 h1 > strong {
     color: rgba(238, 170, 20);
 }
@@ -128,11 +126,17 @@ main {
 .tours1 img {
     max-width: 100%;
     border-radius: 0px 15px 0px 15px;
-
 }
 
 .tours_main h2 {
     background-color: rgba(238, 170, 20);
+}
+
+.tours_main h3 {
+    background-color: rgba(238, 170, 20, 0.3);
+    margin-top:15px;
+    margin-bottom:2px;
+    
 }
 
 .tours1 aside {
@@ -142,14 +146,54 @@ main {
 ul {
     margin-left: -40px;
     margin-top:0;
-
 }
 
 ul > li {
     margin-left: 20px;
-
 }
 
+.price {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.price-note {
+    grid-column-start: 1; 
+    grid-column-end: 4;
+}
+
+.divp1 p{
+    text-align: right;
+    margin:0;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.divp2 p{
+    text-align: center;
+    margin:0;
+    font-size: 110%;
+    text-decoration:line-through;
+}
+
+.divp3 p{
+    text-align: left;
+    margin:0;
+    font-size: 120%;
+    color: rgb(98,0,0);
+}
+.divp4 {
+    text-align: center;
+    margin:0;
+    font-size: 115%;
+    color: rgb(98,0,0);
+}
+
+.divp5 {
+    
+    margin:0;
+    font-size: 80%;
+}
 /***/
 
 footer {

@@ -4,7 +4,7 @@
       "toursType": "Mayan ruins",
       "toursDigram": "\u26FA",
       "description": "Reserve a tour to see one of the New 7 Wonders of the World! or the maginc of Tulum or Coba.  Discover  an impressive ancient civilization with any of our Mayan ruins tours",
-      "fotos": ["ruin1.jpg","ruin2.jpg","ruin3.jpg","ruin4.jpg","ruin5.jpg","ruin6.jpg","ruin7.jpg"],
+      "fotos": ["ruin1.jpg","ruin2.jpg","ruin3.jpg","ruin4.jpg","ruin5.jpg","ruin6.jpg","ruin7.jpg","ruin8.jpg","ruin9.jpg","ruin10.jpg"],
       "tours": [
         {  
           "name":"Chichen-Itza Plus",
@@ -13,18 +13,18 @@
           "pricea": 60,
           "pricec":55,
           "mainpic": "chichen1.jpg",
-          "notes":"traer toalla, niños mayores de 11 años pagan como adulto, a partir de los 3 años ",
-          "contains": ["trasportation", "food", "breakfast", "othres"]
+          "notes":"Price per adult 12 years and up. Price per child 4 years and up",
+          "contains": ["Round trip transfer in an air conditioned van or bus", "Bilingual tour guide", "Express stop at Valladolid", "Entrance fee to Chichen Itza","Breakfast","Buffet lunch including beverage", "Visit to a cenote"]
         },
         {  
           "name":"Chichen-Itza Basic",
           "costa": 36,
           "costc":34,
-          "pricea": 36,
-          "pricec":34,
+          "pricea": 60,
+          "pricec":55,
           "mainpic": "chichen1.jpg",
-          "sugestion":"traer toalla",
-          "contains": ["trasportation", "food", "breakfast", "othres"]
+          "notes":"Price per adult 12 years and up. Price per child 4 years and up",
+          "contains": ["Round trip transfer in an air conditioned van or bus", "Bilingual tour guide", "Express stop at Valladolid", "Entrance fee to Chichen Itza","Breakfast","Buffet lunch including beverage", "Visit to a cenote"]
         }
       ]
     },
