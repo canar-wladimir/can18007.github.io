@@ -106,8 +106,8 @@ function showTours(jsonObj) {
             
             var pricea = tourh3[j].pricea;          
             var pricec = tourh3[j].pricec;
-            var finalpa = tourh3[j].costa + 10;
-            var finalpc = tourh3[j].costc + 5;
+            var finalpa = tourh3[j].pricesa;
+            var finalpc = tourh3[j].pricesc;
             var descuento = Math.abs(100-((finalpa*100)/pricea));
                        
             padult.textContent = "Adult(usd):";

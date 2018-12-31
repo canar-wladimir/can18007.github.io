@@ -10,12 +10,12 @@
           "name":"Chichen-Itza Delux",
           "costa": 36,
           "costc": 34,
-          "pricesa": 61,
-          "pricesc": 46,
-          "pricea": 61,
-          "pricec": 46,
+          "pricesa": 46,
+          "pricesc": 44,
+          "pricea": 65,
+          "pricec": 50,
           "mainpic": "chichen1.jpg",
-          "notes":"Price per adult 12 years and up. Price per child 4 years and up. If your payment will be with Credit Card a 5% aditional charge will be made.",
+          "notes":["Price per adult 12 years and up. Price per child 4 years and up. If your payment will be with Credit Card a 5% aditional charge will be made."],
           "contains": ["Round trip transfer in an air conditioned van or bus from downtown", "Bilingual tour guide", "Express stop at Valladolid", "Entrance fee to Chichen Itza","Breakfast","Buffet lunch including beverage", "Swimming at cenote"]
         }
       ]
