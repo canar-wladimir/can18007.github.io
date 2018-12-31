@@ -2,12 +2,23 @@
   "tours": [
     {
       "toursType": "Mayan ruins tours",
-      "toursDigram": "\u26FA",
+      "toursDigram": "⛺",
       "description": "Reserve a tour to see one of the New 7 Wonders of the World! Travel back in the time with the maginc of Tulum and Coba.  Discover  an impressive ancient civilization with any of our Mayan ruins tours",
-      "fotos": ["ruin1.jpg","ruin2.jpg","ruin3.jpg","ruin4.jpg","ruin5.jpg","ruin6.jpg","ruin7.jpg","ruin8.jpg","ruin9.jpg","ruin10.jpg"],
+      "fotos": [
+        "ruin1.jpg",
+        "ruin2.jpg",
+        "ruin3.jpg",
+        "ruin4.jpg",
+        "ruin5.jpg",
+        "ruin6.jpg",
+        "ruin7.jpg",
+        "ruin8.jpg",
+        "ruin9.jpg",
+        "ruin10.jpg"
+      ],
       "tours": [
-        {  
-          "name":"Chichen-Itza Delux",
+        {
+          "name": "Chichen-Itza Delux",
           "costa": 36,
           "costc": 34,
           "pricesa": 46,
@@ -15,15 +26,29 @@
           "pricea": 65,
           "pricec": 50,
           "mainpic": "chichen1.jpg",
-          "notes":["Price per adult 12 years and up. Price per child 4 years and up. If your payment will be with Credit Card a 5% aditional charge will be made.","asfasfasf","asfdsafsafdds"],
-          "contains": ["Round trip transfer in an air conditioned van or bus from downtown", "Bilingual tour guide", "Express stop at Valladolid", "Entrance fee to Chichen Itza","Breakfast","Buffet lunch including beverage", "Swimming at cenote"]
+          "notes": [
+            "Child rates are valid for 4-to 11-year-olds. If your payment will be with Credit Card a 5% aditional charge will be made.",
+            "You will start the tour at 7AM until 9PM aprox.",
+            "It would be a good idea to carry some cash. Do not bring heavy backpacks.",
+            "Wear comfortable clothes, shoes, and sunglasses. Wear a cap or a hat and a swimsuit. Remember to use biodegradable sunscreen. Bring a towel.",
+            "If you have any health or physical problem please contact us before you make your reservation so we can provide you with advice on the matter"
+          ],
+          "contains": [
+            "Round trip transfer in an air conditioned van or bus from downtown",
+            "Bilingual tour guide",
+            "Express stop at Valladolid",
+            "Entrance fee to Chichen Itza",
+            "Breakfast",
+            "Buffet lunch including beverage",
+            "Swimming at cenote"
+          ]
         }
       ]
     }
   ],
   "services": [
     {
-      "servieType" : "Transportation"
-     }
+      "servieType": "Transportation"
+    }
   ]
 }

@@ -173,6 +173,8 @@ ul > li {
     grid-column-end: 4;
 }
 
+.note p {margin-bottom: 2px;}
+
 .divp1 p{
     text-align: right;
     margin:0;

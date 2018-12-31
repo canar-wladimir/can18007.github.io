@@ -73,12 +73,24 @@ function showTours(jsonObj) {
                 myList.appendChild(listItem);
             }
 
-            
-            mydiv_note.textContent = "Note:" + tourh3[j].notes;
-
             mydiv_contain.appendChild(myList);
+
+
+
+            //mynotes_contain
+            //mydiv_note.textContent = "Note:" + tourh3[j].notes;
+            
+            mydiv_note.textContent = "Important information:";
+            var tournotes = tourh3[j].notes;
+            for (var k = 0; k < tournotes.length; k++) {
+                var listItemp = document.createElement('p');
+                listItemp.textContent = tournotes[k];
+                mydiv_note.appendChild(listItemp);
+            }
+
            
-            //mydiv_contain    
+           
+  
 
             //mydiv_price
             var divp1 = document.createElement('div');
