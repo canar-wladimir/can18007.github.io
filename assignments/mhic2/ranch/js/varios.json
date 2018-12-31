@@ -10,65 +10,13 @@
           "name":"Chichen-Itza Delux",
           "costa": 36,
           "costc": 34,
+          "pricesa": 61,
+          "pricesc": 46,
           "pricea": 61,
           "pricec": 46,
           "mainpic": "chichen1.jpg",
           "notes":"Price per adult 12 years and up. Price per child 4 years and up. If your payment will be with Credit Card a 5% aditional charge will be made.",
           "contains": ["Round trip transfer in an air conditioned van or bus from downtown", "Bilingual tour guide", "Express stop at Valladolid", "Entrance fee to Chichen Itza","Breakfast","Buffet lunch including beverage", "Swimming at cenote"]
-        },
-        {  
-          "name":"Chichen-Itza Basic",
-          "costa": 27,
-          "costc": 26,
-          "pricea": 52,
-          "pricec": 38,
-          "mainpic": "chichen1.jpg",
-          "notes":"Price per adult 12 years and up. Price per child 4 years and up. If your payment will be with Credit Card a 5% aditional charge will be made.",
-          "contains": ["Round trip transfer in an air conditioned van or bus from downtown", "Bilingual tour guide", "Express stop at Valladolid", "Entrance fee to Chichen Itza","Buffet lunch (not including beverage)", "Swimming at cenote"]
-        },
-        {  
-          "name":"4x1 Amazing Delux",
-          "costa": 36,
-          "costc": 34,
-          "pricea": 61,
-          "pricec": 46,
-          "mainpic": "4x1.jpg",
-          "notes":"Price per adult 12 years and up. Price per child 4 years and up. If your payment will be with Credit Card a 5% aditional charge will be made.",
-          "contains": ["Round trip transfer in an air conditioned van or bus from downtown", "Bilingual tour guide", "stop at Playa del Carmen", "Entrance fee to Tulum and Coba","Breakfast","Lunch including beverage", "Swimming at cenote"]
-        },
-        {  
-          "name":"4x1 Amazing Services",
-          "costa": 31,
-          "costc": 28,
-          "pricea": 56,
-          "pricec": 40,
-          "mainpic": "4x1.jpg",
-          "notes":"* Price per adult 12 years and up. Price per child 4 years and up. * If your payment will be with Credit Card a 5% aditional charge will be made. *Tour does not include: Any beverages. Photo or video services. Snacks or any food other than the included lunch. Other activities at Tulum or at Coba. Tips. Souvenirs, handicrafts, clothes, etc. Any other product or service not mentioned on the inclusions list. Food, beverages or the use of life jackets at the cenote. *This tour runs daily. Pick-up time 7:00. Considering you have to walk along irregular trails on this tour and that you must go down a staircase to get to the cenote, this activity is not recommended for people with a limited mobility. Suggestions: It would be a good idea to carry some cash. Do not bring heavy backpacks. Wear comfortable clothes, shoes, and sunglasses. Bring your bathing suit and sandals. Wear a cap or a hat. Remember to use biodegradable sunscreen. Bring your camera. Kids should be supervised at all times (we're going to a city on top of a cliff and to another one nestled in the jungle!). If you have any health or physical problem please contact us before you make your reservation. Be ready for long walks and for lots of fun!",
-          "contains": ["Round trip transfer in an air conditioned van or bus from downtown", "Bilingual tour guide", "stop at Playa del Carmen", "Entrance fee to Tulum and Coba","Lunch (not including beverage)", "Swimming at cenote"]
-        }
-      ]
-    },
-    {
-      "toursType" : "Group Xcaret",
-      "toursDigram": "\u26F2",
-      "description": "asfasfd asfasf safsafda safasfa asfafasdf asfsadf",
-      "fotos": ["ruin1.jpg","ruin2.jpg","ruin3.jpg","ruin4.jpg","ruin5.jpg","ruin6.jpg","ruin7.jpg"],
-      "tours": [
-        {  
-          "name":"Chichen-Itza Plus",
-          "adultp": 55,
-          "childrenp":50,
-          "mainpic": "chichen1.jpg",
-          "sugestion":"traer toalla",
-          "contains": ["trasportation, food, breakfast, othres"]
-        },
-        {  
-          "name":"Chichen-Itza Basic",
-          "adultp": 55,
-          "childrenp":50,
-          "mainpic": "chichen1.jpg",
-          "sugestion":"traer toalla",
-          "contains": ["trasportation, food, breakfast, othres"]
         }
       ]
     }

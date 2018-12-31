@@ -43,6 +43,8 @@ function showTours(jsonObj) {
         var tourh3 = tours[i].tours;
         for (var j = 0; j < tourh3.length; j++) {
             var mydiv_h3 = document.createElement('h3');
+            var mydiv_div = document.createElement('div');
+            mydiv_div.className = "div";
             var mydiv_photo = document.createElement('div');
             var mydiv_contain = document.createElement('div');
             var mydiv_price = document.createElement('div');
@@ -136,9 +138,10 @@ function showTours(jsonObj) {
 
 
             mydiv.appendChild(mydiv_h3);
-            mydiv.appendChild(mydiv_photo);
-            mydiv.appendChild(mydiv_contain);
-            mydiv.appendChild(mydiv_price);
+            mydiv.appendChild(mydiv_div);
+            mydiv_div.appendChild(mydiv_photo);
+            mydiv_div.appendChild(mydiv_contain);
+            mydiv_div.appendChild(mydiv_price);
             mydiv.appendChild(mydiv_note);
             
             
