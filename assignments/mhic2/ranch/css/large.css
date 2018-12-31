@@ -14,8 +14,9 @@
  /*Main tours.html rules here*/
 
  .tours1 aside {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 
     margin: 15px 10px 15px 0px;
 }
