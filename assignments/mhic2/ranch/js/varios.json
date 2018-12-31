@@ -1,36 +1,56 @@
 {
   "tours": [
     {
-      "toursType": "Mayan ruins",
+      "toursType": "Mayan ruins tours",
       "toursDigram": "\u26FA",
-      "description": "Reserve a tour to see one of the New 7 Wonders of the World! or the maginc of Tulum or Coba.  Discover  an impressive ancient civilization with any of our Mayan ruins tours",
+      "description": "Reserve a tour to see one of the New 7 Wonders of the World! Travel back in the time with the maginc of Tulum and Coba.  Discover  an impressive ancient civilization with any of our Mayan ruins tours",
       "fotos": ["ruin1.jpg","ruin2.jpg","ruin3.jpg","ruin4.jpg","ruin5.jpg","ruin6.jpg","ruin7.jpg","ruin8.jpg","ruin9.jpg","ruin10.jpg"],
       "tours": [
         {  
-          "name":"Chichen-Itza Plus",
+          "name":"Chichen-Itza Delux",
           "costa": 36,
-          "costc":34,
-          "pricea": 60,
-          "pricec":55,
+          "costc": 34,
+          "pricea": 61,
+          "pricec": 46,
           "mainpic": "chichen1.jpg",
           "notes":"Price per adult 12 years and up. Price per child 4 years and up. If your payment will be with Credit Card a 5% aditional charge will be made.",
-          "contains": ["Round trip transfer in an air conditioned van or bus", "Bilingual tour guide", "Express stop at Valladolid", "Entrance fee to Chichen Itza","Breakfast","Buffet lunch including beverage", "Visit to a cenote"]
+          "contains": ["Round trip transfer in an air conditioned van or bus from downtown", "Bilingual tour guide", "Express stop at Valladolid", "Entrance fee to Chichen Itza","Breakfast","Buffet lunch including beverage", "Swimming at cenote"]
         },
         {  
           "name":"Chichen-Itza Basic",
-          "costa": 36,
-          "costc":34,
-          "pricea": 60,
-          "pricec":55,
+          "costa": 27,
+          "costc": 26,
+          "pricea": 52,
+          "pricec": 38,
           "mainpic": "chichen1.jpg",
-          "notes":"Price per adult 12 years and up. Price per child 4 years and up",
-          "contains": ["Round trip transfer in an air conditioned van or bus", "Bilingual tour guide", "Express stop at Valladolid", "Entrance fee to Chichen Itza","Breakfast","Buffet lunch including beverage", "Visit to a cenote"]
+          "notes":"Price per adult 12 years and up. Price per child 4 years and up. If your payment will be with Credit Card a 5% aditional charge will be made.",
+          "contains": ["Round trip transfer in an air conditioned van or bus from downtown", "Bilingual tour guide", "Express stop at Valladolid", "Entrance fee to Chichen Itza","Buffet lunch (not including beverage)", "Swimming at cenote"]
+        },
+        {  
+          "name":"4x1 Amazing Delux",
+          "costa": 36,
+          "costc": 34,
+          "pricea": 61,
+          "pricec": 46,
+          "mainpic": "4x1.jpg",
+          "notes":"Price per adult 12 years and up. Price per child 4 years and up. If your payment will be with Credit Card a 5% aditional charge will be made.",
+          "contains": ["Round trip transfer in an air conditioned van or bus from downtown", "Bilingual tour guide", "stop at Playa del Carmen", "Entrance fee to Tulum and Coba","Breakfast","Lunch including beverage", "Swimming at cenote"]
+        },
+        {  
+          "name":"4x1 Amazing Services",
+          "costa": 31,
+          "costc": 28,
+          "pricea": 56,
+          "pricec": 40,
+          "mainpic": "4x1.jpg",
+          "notes":"Price per adult 12 years and up. Price per child 4 years and up. If your payment will be with Credit Card a 5% aditional charge will be made.",
+          "contains": ["Round trip transfer in an air conditioned van or bus from downtown", "Bilingual tour guide", "stop at Playa del Carmen", "Entrance fee to Tulum and Coba","Lunch (not including beverage)", "Swimming at cenote"]
         }
       ]
     },
     {
-      "toursType" : "Xcaret",
-      "toursDigram": "\u26FA",
+      "toursType" : "Group Xcaret",
+      "toursDigram": "\u26F2",
       "description": "asfasfd asfasf safsafda safasfa asfafasdf asfsadf",
       "fotos": ["ruin1.jpg","ruin2.jpg","ruin3.jpg","ruin4.jpg","ruin5.jpg","ruin6.jpg","ruin7.jpg"],
       "tours": [
