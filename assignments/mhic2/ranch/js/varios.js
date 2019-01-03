@@ -65,6 +65,7 @@ function showTours(jsonObj) {
 
             //mydiv_contain
             var myList = document.createElement('ul');
+            myList.className = "note";
             myList.textContent = "Your tour includes:";
             var tourcontain = tourh3[j].contains;
             for (var k = 0; k < tourcontain.length; k++) {
