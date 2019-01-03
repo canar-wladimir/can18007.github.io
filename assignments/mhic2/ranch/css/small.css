@@ -173,7 +173,13 @@ ul > li {
     grid-column-end: 4;
 }
 
-.note p {margin-bottom: 2px;}
+.note {
+    font-weight: bold;
+}
+.note p {
+    margin-bottom: 2px;
+    font-weight: normal;
+}
 
 .divp1 p{
     text-align: right;
