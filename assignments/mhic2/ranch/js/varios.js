@@ -1,6 +1,7 @@
 var header = document.querySelector('header');
 var section = document.querySelector('section');
 var requestURL = 'https://can18007.github.io/assignments/mhic2/ranch/js/varios.json';
+//var requestURL = 'js/varios.json';
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
@@ -8,7 +9,7 @@ request.send();
 
 request.onload = function() {
     var tours = request.response;
-     console.log(tours);
+    //console.log(tours);
  	showTours(tours);
 }
 
@@ -38,7 +39,7 @@ function showTours(jsonObj) {
         }
 
         
-        console.log(tourh3);
+        //console.log(tourh3);
         //mydiv
         var tourh3 = tours[i].tours;
         for (var j = 0; j < tourh3.length; j++) {
@@ -59,7 +60,7 @@ function showTours(jsonObj) {
             images.setAttribute("src",path+tourh3[j].mainpic);
             images.setAttribute("alt",tourh3[j].mainpic);
 
-            console.log(tourh3[j].name);
+            //console.log(tourh3[j].name);
             mydiv_h3.textContent = tourh3[j].name;
             mydiv_photo.appendChild(images)
 

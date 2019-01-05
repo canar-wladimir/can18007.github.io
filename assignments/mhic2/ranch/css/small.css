@@ -89,7 +89,7 @@ main {
     display: block; 
 }
 .box1 h1 > strong {
-    color: rgba(238, 170, 20);
+    color: rgb(238, 170, 20);
 }
 
 
@@ -107,7 +107,7 @@ main {
     margin: 0%;
 }
 
-.margin img:hover {box-shadow: 0px 0px 0px 4px rgb(98,0,0,0.3);}
+.margin img:hover {box-shadow: 0px 0px 0px 4px rgba(98,0,0,0.3);}
 
 .box2 div * {
     margin: 4px;
@@ -116,7 +116,7 @@ main {
     margin-bottom: 4px;
 }
 .box2 h2{
-    background-color: rgba(238, 170, 20);
+    background-color: rgb(238, 170, 20);
 
 }
 
@@ -127,7 +127,7 @@ main {
 
 /*Main tours.html rules here*/
 .tours1 h1 > strong {
-    color: rgba(238, 170, 20);
+    color: rgb(238, 170, 20);
 }
 
 .tours1 img {
@@ -136,7 +136,7 @@ main {
 }
 
 .tours_main h2 {
-    background-color: rgba(238, 170, 20);
+    background-color: rgb(238, 170, 20);
 }
 
 .tours_main h3 {

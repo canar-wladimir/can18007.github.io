@@ -1,6 +1,44 @@
 {
   "tours": [
     {
+      "toursType": "Our recomendation",
+      "toursDigram": "\u2665",
+      "description": "3 full days tour. Reserve a tour to see one of the New 7 Wonders of the World! Travel back in the time with the maginc of Tulum and Coba. Discover  an impressive ancient civilization. Swim in centones. Visit Playa del Carmen and Valladolid. Explore your natural side at the Cancun Xcaret Park. Discover the secrets of the underground river.",
+      "fotos": [
+        "recom1.jpg",
+        "recom2.jpg",
+        "recom3.jpg",
+        "recom4.jpg",
+        "recom5.jpg",
+        "recom6.jpg"
+      ],
+      "tours": [
+        {
+          "name": "8x1 - Three days tour",
+          "costa": 172,
+          "costc": 111,
+          "pricesa": 190,
+          "pricesc": 120,
+          "pricea": 250,
+          "pricec": 150,
+          "mainpic": "3days.jpg",
+          "notes": [
+            "3 days tour.",
+            "You will visit 8 places: 1- Tulum ruin. 2- Coba ruin, 3- Palya del Carmen, 4- Cenote near to Coba, 5- Chichen Itza ruin, 6- Valladolid, 7- Cenote near to Chichen. 8- Xcaret Park", 
+            "You will start the tour at 7AM until night.",
+            "It would be a good idea to carry some cash. Do not bring heavy backpacks.",
+            "Wear comfortable clothes, shoes, and sunglasses. Wear a cap or a hat and a swimsuit. Remember to use biodegradable sunscreen. Bring a towel.",
+            "If you have any health or physical problem please contact us before you make your reservation so we can provide you with advice on the matter"
+          ],
+          "contains": [
+            "1 Day: Visit Tumlum, Coba ruins. Swin in a cenote and visit Playa del Carmen. Includes buffet (not beverages). 2 Day: Visit Chichen Itza. Swin in a Cenote and visit Valladolid city.Includes buffet (not beverages). 3 Day Visit Xcarte Park (Xcarte Plus). Includes buffete with unlimited beverages. Snorkel equipmnet. Night show.",
+            "All tours has round trip transfer in an air conditioned van or bus from downtown.",
+            "Bilingual tour guide for ruins"
+          ]
+        }
+      ]
+    },
+    {
       "toursType": "Mayan ruins tours",
       "toursDigram": "➥",
       "description": "Reserve a tour to see one of the New 7 Wonders of the World! Travel back in the time with the maginc of Tulum and Coba.  Discover  an impressive ancient civilization with any of our Mayan ruins tours",
@@ -176,9 +214,7 @@
           "mainpic": "xcaret1.jpg",
           "notes": [
             "Children under 40' tall enter free. Children between 40' to 55' tall pay children rate. If your payment will be with Credit Card a 5% aditional charge will be made.",
-            "You will start the tour at 7AM until 10PM aprox.",
-            "Bring an extra set of clothes.",
-            "Your sunscreen lotion must be free of chemicals to be used in Xcaret. If your sunscreen lotion contains any of the following ingredients it shall not be used within the park: benzophenone, etilhexil, homosalate, octyl methoxycinnamate, octyl salicylate, octinoxate, oxybenzone, butyl methoxydibenzoylmethane (sunscreen free of all these chemicals is sold at the park)",
+            "You will start the tour at 7AM until 10PM aprox.","Bring an extra set of clothes.","Your sunscreen lotion must be free of chemicals to be used in Xcaret.", 
             "Bring some cash and a credit or debit card since the use of certain equipment requires a deposit or to pay for any other service not mentioned on the inclusions list",
             "If you have any health or physical problem please contact us before you make your reservation so we can provide you with advice on the matter"
           ],
@@ -207,8 +243,7 @@
             "The minimum age for certain activities is 6.",
             "It would be a good idea to carry some cash. Do not bring heavy backpacks.",
             "Wear comfortable clothes, shoes, and sunglasses. Wear a cap or a hat and a swimsuit. Remember to use biodegradable sunscreen. Bring a towel.",
-            "Your sunscreen lotion must be free of chemicals to be used in Xel Ha. If your sunscreen lotion contains any of the following ingredients it shall not be used within the park: benzophenone, etilhexil, homosalate, octyl methoxycinnamate, octyl salicylate, octinoxate, oxybenzone, butyl methoxydibenzoylmethane (sunscreen free of all these chemicals is sold at the park)",
-            "If you have any health or physical problem please contact us before you make your reservation so we can provide you with advice on the matter"
+            "Your sunscreen lotion must be free of chemicals to be used in Xel Ha.","If you have any health or physical problem please contact us before you make your reservation so we can provide you with advice on the matter"
           ],
           "contains": [
             "Round trip transfer in an air conditioned van or bus from downtown",
@@ -237,7 +272,6 @@
             "You will start the tour at 7AM until 9PM aprox.",
             "You must show an official ID at the park's ticket office (adults and children, too)",
             "Wear comfortable beachwear, water shoes, and a swimming suit. Bring a towel",
-            "If it contains one of the following ingredients you will have to leave it at the ticket office: octocrylene, benzophenone, butyl methoxydibenzoylmethane, hexyldecanol, dimethyl apramide, cetyl dimethicone, methylparaben, polyethylene,propylparaben, butylcarbamate",
             "If you have any health or physical problem please contact us before you make your reservation so we can provide you with advice on the matter",
             "Your sunscreen and/or insect repellent should be 100% biodegradable for you to use it at the park. "
           ],
@@ -263,7 +297,6 @@
             "Children must be at least 5 to enter the park. Children between 5 and 11 years old pay half price If your payment will be with Credit Card a 5% aditional charge will be made.",
             "You must show an official ID at the park's ticket office (adults and children, too)",
             "Wear comfortable beachwear, water shoes, and a swimming suit. Bring a towel",
-            "If it contains one of the following ingredients you will have to leave it at the ticket office: octocrylene, benzophenone, butyl methoxydibenzoylmethane, hexyldecanol, dimethyl apramide, cetyl dimethicone, methylparaben, polyethylene,propylparaben, butylcarbamate",
             "If you have any health or physical problem please contact us before you make your reservation so we can provide you with advice on the matter",
             "Your sunscreen and/or insect repellent should be 100% biodegradable for you to use it at the park. "
           ],
