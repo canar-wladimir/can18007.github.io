@@ -17,10 +17,10 @@
           "name": "8x1 - Three days tour",
           "costa": 172,
           "costc": 111,
-          "pricesa": 190,
-          "pricesc": 120,
-          "pricea": 250,
-          "pricec": 150,
+          "pricesa": 193,
+          "pricesc": 123,
+          "pricea": 253,
+          "pricec": 153,
           "mainpic": "3days.jpg",
           "notes": [
             "3 days tour.",
@@ -57,12 +57,12 @@
       "tours": [
         {
           "name": "Chichen-Itza Standar",
-          "costa": 28,
-          "costc": 26,
-          "pricesa": 38,
-          "pricesc": 30,
-          "pricea": 55,
-          "pricec": 40,
+          "costa": 30,
+          "costc": 30,
+          "pricesa": 40,
+          "pricesc": 35,
+          "pricea": 60,
+          "pricec": 45,
           "mainpic": "chichen1.jpg",
           "notes": [
             "Child rates are valid for 4-to 11-year-olds. If your payment will be with Credit Card a 5% aditional charge will be made.",
@@ -81,7 +81,7 @@
           ]
         },
         {
-          "name": "Chichen-Itza Delux",
+          "name": "Chichen-Itza Premium",
           "costa": 42,
           "costc": 40,
           "pricesa": 52,
@@ -101,9 +101,9 @@
             "Bilingual tour guide",
             "Express stop at Valladolid",
             "Entrance fee to Chichen Itza",
-            "Breakfast",
-            "Buffet lunch including beverage",
-            "Swimming at cenote"
+            "Buffet lunch not beverage",
+            "Swimming at cenote",
+            "Tamascal"
           ]
         },
         {
@@ -128,33 +128,6 @@
             "Guide tour at both archaeological sites",
             "Entrance fee to Tulum and Coba",
             "Lunch",
-            "Swimming at cenote",
-            "free time in Playa del Carmen"
-          ]
-        },
-        {
-          "name": "4x1 Delux",
-          "costa": 42,
-          "costc": 40,
-          "pricesa": 52,
-          "pricesc": 45,
-          "pricea": 65,
-          "pricec": 50,
-          "mainpic": "4x1.jpg",
-          "notes": [
-            "Child rates are valid for 4-to 11-year-olds. If your payment will be with Credit Card a 5% aditional charge will be made.",
-            "You will start the tour at 7AM until 9PM aprox.",
-            "It would be a good idea to carry some cash. Do not bring heavy backpacks.",
-            "Wear comfortable clothes, shoes, and sunglasses. Wear a cap or a hat and a swimsuit. Remember to use biodegradable sunscreen. Bring a towel.",
-            "If you have any health or physical problem please contact us before you make your reservation so we can provide you with advice on the matter"
-          ],
-          "contains": [
-            "Round trip transfer in an air conditioned van or bus from downtown",
-            "Bilingual tour guide",
-            "Guide tour at both archaeological sites",
-            "Entrance fee to Tulum and Coba",
-            "Buffet with drinks",
-            "Brekfast",
             "Swimming at cenote",
             "free time in Playa del Carmen"
           ]
