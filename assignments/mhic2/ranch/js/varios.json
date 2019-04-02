@@ -14,13 +14,13 @@
       ],
       "tours": [
         {
-          "name": "8x1 - Three days tour - Mexicans",
+          "name": "8x1 - Three days tour - Mexican",
           "costa": 172,
           "costc": 111,
-          "pricesa": 193,
-          "pricesc": 123,
-          "pricea": 253,
-          "pricec": 153,
+          "pricesa": 190,
+          "pricesc": 105,
+          "pricea": 250,
+          "pricec": 150,
           "mainpic": "3days.jpg",
           "notes": [
             "3 days tour.",
@@ -35,17 +35,15 @@
             "All tours has round trip transfer in an air conditioned van or bus from downtown.",
             "Bilingual tour guide for ruins"
           ]
-        }
-      ]
-    },
-    {
-          "name": "8x1 - Three days tour - Foreigners",
+        },
+        {
+          "name": "8x1 - Three days tour foreigners",
           "costa": 172,
           "costc": 111,
-          "pricesa": 203,
-          "pricesc": 145,
+          "pricesa": 205,
+          "pricesc": 125,
           "pricea": 270,
-          "pricec": 173,
+          "pricec": 170,
           "mainpic": "3days.jpg",
           "notes": [
             "3 days tour.",
@@ -81,13 +79,13 @@
       ],
       "tours": [
         {
-          "name": "Chichen-Itza Standar - Mexican",
-          "costa": 30,
-          "costc": 30,
+          "name": "Chichen-Itza Premium - Mexican",
+          "costa": 28,
+          "costc": 26,
           "pricesa": 40,
           "pricesc": 35,
-          "pricea": 60,
-          "pricec": 45,
+          "pricea": 70,
+          "pricec": 40,
           "mainpic": "chichen1.jpg",
           "notes": [
             "Child rates are valid for 4-to 11-year-olds. If your payment will be with Credit Card a 5% aditional charge will be made.",
@@ -106,13 +104,13 @@
           ]
         },
         {
-          "name": "Chichen-Itza Standar - Foreigners",
-          "costa": 30,
-          "costc": 30,
+          "name": "Chichen-Itza Premium - foreigners",
+          "costa": 28,
+          "costc": 26,
           "pricesa": 50,
-          "pricesc": 40,
-          "pricea": 60,
-          "pricec": 45,
+          "pricesc": 35,
+          "pricea": 70,
+          "pricec": 50,
           "mainpic": "chichen1.jpg",
           "notes": [
             "Child rates are valid for 4-to 11-year-olds. If your payment will be with Credit Card a 5% aditional charge will be made.",
@@ -128,32 +126,6 @@
             "Entrance fee to Chichen Itza",
             "Buffet lunch (not beverage)",
             "Swimming at cenote"
-          ]
-        },
-        {
-          "name": "Chichen-Itza Premium",
-          "costa": 42,
-          "costc": 40,
-          "pricesa": 52,
-          "pricesc": 45,
-          "pricea": 67,
-          "pricec": 55,
-          "mainpic": "chichen1.jpg",
-          "notes": [
-            "Child rates are valid for 4-to 11-year-olds. If your payment will be with Credit Card a 5% aditional charge will be made.",
-            "You will start the tour at 7AM until 9PM aprox.",
-            "It would be a good idea to carry some cash. Do not bring heavy backpacks.",
-            "Wear comfortable clothes, shoes, and sunglasses. Wear a cap or a hat and a swimsuit. Remember to use biodegradable sunscreen. Bring a towel.",
-            "If you have any health or physical problem please contact us before you make your reservation so we can provide you with advice on the matter"
-          ],
-          "contains": [
-            "Round trip transfer in an air conditioned van or bus from downtown",
-            "Bilingual tour guide",
-            "Express stop at Valladolid",
-            "Entrance fee to Chichen Itza",
-            "Buffet lunch not beverage",
-            "Swimming at cenote",
-            "Tamascal"
           ]
         },
         {
